@@ -1,0 +1,21 @@
+{
+  "name": "jade-linker",
+  "version": "0.0.0",
+  "description": "Link multiple jade ASTs together using include/extends",
+  "keywords": [],
+  "dependencies": {
+    "jade-walk": "0.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jadejs/jade-linker.git"
+  },
+  "author": "Forbes Lindesay",
+  "license": "MIT"
+}
