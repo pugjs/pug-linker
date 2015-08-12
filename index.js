@@ -6,6 +6,7 @@ var walk = require('jade-walk');
 module.exports = link;
 function link(ast) {
   assert(ast.type === 'Block', 'The top level element should always be a block');
+  if (!ast.nodes.length) return ast;
   var extendsNode = null;
   if (ast.nodes[0].type === 'Extends') {
     extendsNode = ast.nodes.shift();
