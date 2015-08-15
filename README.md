@@ -10,6 +10,18 @@ Link multiple jade ASTs together using include/extends
 
     npm install jade-linker
 
+## Usage
+
+```js
+var link = require('jade-linker');
+```
+
+### `link(ast)`
+
+Flatten the Jade AST of inclusion and inheritance.
+
+This function merely links the AST together; it doesn't read the file system to resolve and parse included and extended files. Thus, the main AST must already have the ASTs of the included and extended files embedded in the `FileReference` nodes. `jade-load` is designed to do that.
+
 ## License
 
   MIT
