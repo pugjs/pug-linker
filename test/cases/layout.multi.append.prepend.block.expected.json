@@ -1,0 +1,508 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "NamedBlock",
+      "nodes": [
+        {
+          "type": "Tag",
+          "name": "p",
+          "selfClosing": false,
+          "block": {
+            "type": "Block",
+            "nodes": [
+              {
+                "type": "Text",
+                "val": "Last prepend must appear at top",
+                "line": 13,
+                "filename": "layout.multi.append.prepend.block.jade"
+              }
+            ]
+          },
+          "attrs": [
+            {
+              "name": "class",
+              "val": "'last'",
+              "escaped": false
+            },
+            {
+              "name": "class",
+              "val": "'prepend'",
+              "escaped": false
+            }
+          ],
+          "attributeBlocks": [],
+          "isInline": false,
+          "line": 13,
+          "filename": "layout.multi.append.prepend.block.jade"
+        },
+        {
+          "type": "Tag",
+          "name": "p",
+          "selfClosing": false,
+          "block": {
+            "type": "Block",
+            "nodes": [
+              {
+                "type": "Text",
+                "val": "Something prepended to content",
+                "line": 7,
+                "filename": "layout.multi.append.prepend.block.jade"
+              }
+            ]
+          },
+          "attrs": [
+            {
+              "name": "class",
+              "val": "'first'",
+              "escaped": false
+            },
+            {
+              "name": "class",
+              "val": "'prepend'",
+              "escaped": false
+            }
+          ],
+          "attributeBlocks": [],
+          "isInline": false,
+          "line": 7,
+          "filename": "layout.multi.append.prepend.block.jade"
+        },
+        {
+          "type": "Tag",
+          "name": "div",
+          "block": {
+            "type": "Block",
+            "nodes": [
+              {
+                "type": "Text",
+                "val": "Defined content",
+                "line": 5,
+                "filename": "../fixtures/multi-append-prepend-block/redefine.jade"
+              }
+            ]
+          },
+          "attrs": [
+            {
+              "name": "class",
+              "val": "'content'",
+              "escaped": false
+            }
+          ],
+          "attributeBlocks": [],
+          "isInline": false,
+          "line": 4,
+          "filename": "../fixtures/multi-append-prepend-block/redefine.jade"
+        },
+        {
+          "type": "Tag",
+          "name": "p",
+          "selfClosing": false,
+          "block": {
+            "type": "Block",
+            "nodes": [
+              {
+                "type": "Text",
+                "val": "Something appended to content",
+                "line": 4,
+                "filename": "layout.multi.append.prepend.block.jade"
+              }
+            ]
+          },
+          "attrs": [
+            {
+              "name": "class",
+              "val": "'first'",
+              "escaped": false
+            },
+            {
+              "name": "class",
+              "val": "'append'",
+              "escaped": false
+            }
+          ],
+          "attributeBlocks": [],
+          "isInline": false,
+          "line": 4,
+          "filename": "layout.multi.append.prepend.block.jade"
+        },
+        {
+          "type": "Tag",
+          "name": "p",
+          "selfClosing": false,
+          "block": {
+            "type": "Block",
+            "nodes": [
+              {
+                "type": "Text",
+                "val": "Last append must be most last",
+                "line": 10,
+                "filename": "layout.multi.append.prepend.block.jade"
+              }
+            ]
+          },
+          "attrs": [
+            {
+              "name": "class",
+              "val": "'last'",
+              "escaped": false
+            },
+            {
+              "name": "class",
+              "val": "'append'",
+              "escaped": false
+            }
+          ],
+          "attributeBlocks": [],
+          "isInline": false,
+          "line": 10,
+          "filename": "layout.multi.append.prepend.block.jade"
+        }
+      ],
+      "line": 1,
+      "filename": "../fixtures/multi-append-prepend-block/root.jade",
+      "name": "content",
+      "mode": "replace"
+    },
+    {
+      "type": "NamedBlock",
+      "nodes": [
+        {
+          "type": "Tag",
+          "name": "script",
+          "selfClosing": false,
+          "block": {
+            "type": "Block",
+            "nodes": []
+          },
+          "attrs": [
+            {
+              "name": "src",
+              "val": "'foo.js'",
+              "escaped": true
+            }
+          ],
+          "attributeBlocks": [],
+          "isInline": false,
+          "line": 19,
+          "filename": "layout.multi.append.prepend.block.jade"
+        },
+        {
+          "type": "Tag",
+          "name": "script",
+          "selfClosing": false,
+          "block": {
+            "type": "Block",
+            "nodes": []
+          },
+          "attrs": [
+            {
+              "name": "src",
+              "val": "'/app.js'",
+              "escaped": true
+            }
+          ],
+          "attributeBlocks": [],
+          "isInline": false,
+          "line": 5,
+          "filename": "../fixtures/multi-append-prepend-block/root.jade"
+        },
+        {
+          "type": "Tag",
+          "name": "script",
+          "selfClosing": false,
+          "block": {
+            "type": "Block",
+            "nodes": []
+          },
+          "attrs": [
+            {
+              "name": "src",
+              "val": "'jquery.js'",
+              "escaped": true
+            }
+          ],
+          "attributeBlocks": [],
+          "isInline": false,
+          "line": 16,
+          "filename": "layout.multi.append.prepend.block.jade"
+        }
+      ],
+      "line": 4,
+      "filename": "../fixtures/multi-append-prepend-block/root.jade",
+      "name": "head",
+      "mode": "replace"
+    }
+  ],
+  "line": 0,
+  "filename": "../fixtures/multi-append-prepend-block/root.jade",
+  "declaredBlocks": {
+    "content": {
+      "type": "NamedBlock",
+      "nodes": [
+        {
+          "type": "Tag",
+          "name": "div",
+          "block": {
+            "type": "Block",
+            "nodes": [
+              {
+                "type": "Text",
+                "val": "Defined content",
+                "line": 5,
+                "filename": "../fixtures/multi-append-prepend-block/redefine.jade"
+              }
+            ]
+          },
+          "attrs": [
+            {
+              "name": "class",
+              "val": "'content'",
+              "escaped": false
+            }
+          ],
+          "attributeBlocks": [],
+          "isInline": false,
+          "line": 4,
+          "filename": "../fixtures/multi-append-prepend-block/redefine.jade"
+        }
+      ],
+      "line": 3,
+      "filename": "../fixtures/multi-append-prepend-block/redefine.jade",
+      "name": "content",
+      "mode": "replace",
+      "parent": {
+        "type": "NamedBlock",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "p",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Text",
+                  "val": "Last prepend must appear at top",
+                  "line": 13,
+                  "filename": "layout.multi.append.prepend.block.jade"
+                }
+              ]
+            },
+            "attrs": [
+              {
+                "name": "class",
+                "val": "'last'",
+                "escaped": false
+              },
+              {
+                "name": "class",
+                "val": "'prepend'",
+                "escaped": false
+              }
+            ],
+            "attributeBlocks": [],
+            "isInline": false,
+            "line": 13,
+            "filename": "layout.multi.append.prepend.block.jade"
+          },
+          {
+            "type": "Tag",
+            "name": "p",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Text",
+                  "val": "Something prepended to content",
+                  "line": 7,
+                  "filename": "layout.multi.append.prepend.block.jade"
+                }
+              ]
+            },
+            "attrs": [
+              {
+                "name": "class",
+                "val": "'first'",
+                "escaped": false
+              },
+              {
+                "name": "class",
+                "val": "'prepend'",
+                "escaped": false
+              }
+            ],
+            "attributeBlocks": [],
+            "isInline": false,
+            "line": 7,
+            "filename": "layout.multi.append.prepend.block.jade"
+          },
+          {
+            "type": "Tag",
+            "name": "div",
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Text",
+                  "val": "Defined content",
+                  "line": 5,
+                  "filename": "../fixtures/multi-append-prepend-block/redefine.jade"
+                }
+              ]
+            },
+            "attrs": [
+              {
+                "name": "class",
+                "val": "'content'",
+                "escaped": false
+              }
+            ],
+            "attributeBlocks": [],
+            "isInline": false,
+            "line": 4,
+            "filename": "../fixtures/multi-append-prepend-block/redefine.jade"
+          },
+          {
+            "type": "Tag",
+            "name": "p",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Text",
+                  "val": "Something appended to content",
+                  "line": 4,
+                  "filename": "layout.multi.append.prepend.block.jade"
+                }
+              ]
+            },
+            "attrs": [
+              {
+                "name": "class",
+                "val": "'first'",
+                "escaped": false
+              },
+              {
+                "name": "class",
+                "val": "'append'",
+                "escaped": false
+              }
+            ],
+            "attributeBlocks": [],
+            "isInline": false,
+            "line": 4,
+            "filename": "layout.multi.append.prepend.block.jade"
+          },
+          {
+            "type": "Tag",
+            "name": "p",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Text",
+                  "val": "Last append must be most last",
+                  "line": 10,
+                  "filename": "layout.multi.append.prepend.block.jade"
+                }
+              ]
+            },
+            "attrs": [
+              {
+                "name": "class",
+                "val": "'last'",
+                "escaped": false
+              },
+              {
+                "name": "class",
+                "val": "'append'",
+                "escaped": false
+              }
+            ],
+            "attributeBlocks": [],
+            "isInline": false,
+            "line": 10,
+            "filename": "layout.multi.append.prepend.block.jade"
+          }
+        ],
+        "line": 1,
+        "filename": "../fixtures/multi-append-prepend-block/root.jade",
+        "name": "content",
+        "mode": "replace"
+      }
+    },
+    "head": {
+      "type": "NamedBlock",
+      "nodes": [
+        {
+          "type": "Tag",
+          "name": "script",
+          "selfClosing": false,
+          "block": {
+            "type": "Block",
+            "nodes": []
+          },
+          "attrs": [
+            {
+              "name": "src",
+              "val": "'foo.js'",
+              "escaped": true
+            }
+          ],
+          "attributeBlocks": [],
+          "isInline": false,
+          "line": 19,
+          "filename": "layout.multi.append.prepend.block.jade"
+        },
+        {
+          "type": "Tag",
+          "name": "script",
+          "selfClosing": false,
+          "block": {
+            "type": "Block",
+            "nodes": []
+          },
+          "attrs": [
+            {
+              "name": "src",
+              "val": "'/app.js'",
+              "escaped": true
+            }
+          ],
+          "attributeBlocks": [],
+          "isInline": false,
+          "line": 5,
+          "filename": "../fixtures/multi-append-prepend-block/root.jade"
+        },
+        {
+          "type": "Tag",
+          "name": "script",
+          "selfClosing": false,
+          "block": {
+            "type": "Block",
+            "nodes": []
+          },
+          "attrs": [
+            {
+              "name": "src",
+              "val": "'jquery.js'",
+              "escaped": true
+            }
+          ],
+          "attributeBlocks": [],
+          "isInline": false,
+          "line": 16,
+          "filename": "layout.multi.append.prepend.block.jade"
+        }
+      ],
+      "line": 4,
+      "filename": "../fixtures/multi-append-prepend-block/root.jade",
+      "name": "head",
+      "mode": "replace"
+    }
+  }
+}

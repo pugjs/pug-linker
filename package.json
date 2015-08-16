@@ -7,10 +7,16 @@
     "jade-walk": "0.0.2"
   },
   "devDependencies": {
-    "mocha": "*"
+    "istanbul": "^0.3.17",
+    "jade": "^1.11.0",
+    "jade-lexer": "0.0.8",
+    "jade-load": "0.0.3",
+    "jade-parser": "0.0.8",
+    "testit": "^2.0.2"
   },
   "scripts": {
-    "test": "mocha -R spec"
+    "coverage": "istanbul cover test",
+    "test": "node test"
   },
   "repository": {
     "type": "git",
