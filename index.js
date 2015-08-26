@@ -50,15 +50,9 @@ function link(ast) {
 
 function findDeclaredBlocks(ast) {
   var definitions = {};
-  var stack = [];
   walk(ast, function before(node) {
     if (node.type === 'NamedBlock' && node.mode === 'replace') {
-      stack.push(node.name);
       definitions[node.name] = node;
-    }
-  }, function after(node) {
-    if (node.type === 'NamedBlock' && node.mode === 'replace') {
-      stack.pop();
     }
   });
   return definitions;
