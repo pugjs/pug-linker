@@ -2,6 +2,7 @@
 
 var assert = require('assert');
 var walk = require('jade-walk');
+var error = require('jade-error');
 
 module.exports = link;
 function link(ast) {
@@ -21,7 +22,7 @@ function link(ast) {
       } else if (ast.nodes[i].type === 'Mixin' && ast.nodes[i].call === false) {
         mixins.push(ast.nodes[i]);
       } else {
-        throw new Error('Only named blocks and mixins can appear at the top level of an extending template');
+        error('UNEXPECTED_NODES_IN_EXTENDING_ROOT', 'Only named blocks and mixins can appear at the top level of an extending template', ast.nodes[i]);
       }
     }
     var parent = link(extendsNode.file.ast);

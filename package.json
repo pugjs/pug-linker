@@ -4,6 +4,7 @@
   "description": "Link multiple jade ASTs together using include/extends",
   "keywords": [],
   "dependencies": {
+    "jade-error": "^1.0.0",
     "jade-walk": "0.0.2"
   },
   "devDependencies": {
