@@ -2,7 +2,10 @@
 
 var assert = require('assert');
 var walk = require('jade-walk');
-var error = require('jade-error');
+
+function error() {
+  throw require('jade-error').apply(null, arguments);
+}
 
 module.exports = link;
 function link(ast) {
