@@ -11,8 +11,12 @@ module.exports = link;
 function link(ast) {
   assert(ast.type === 'Block', 'The top level element should always be a block');
   var extendsNode = null;
-  if (ast.nodes.length && ast.nodes[0].type === 'Extends') {
-    extendsNode = ast.nodes.shift();
+  if (ast.nodes.length) {
+    var hasExtends = ast.nodes[0].type === 'Extends';
+    if (hasExtends) {
+      extendsNode = ast.nodes.shift();
+    }
+    checkExtendPosition(ast, hasExtends);
   }
   ast = applyIncludes(ast);
   ast.declaredBlocks = findDeclaredBlocks(ast);
@@ -142,4 +146,16 @@ function applyYield(ast, block) {
     defaultYieldLocation(ast).nodes.push(block);
   }
   return ast;
+}
+function checkExtendPosition(ast, hasExtends) {
+  var legitExtendsReached = false;
+  walk(ast, function (node) {
+    if (node.type === 'Extends') {
+      if (hasExtends && !legitExtendsReached) {
+        legitExtendsReached = true;
+      } else {
+        error('EXTENDS_NOT_FIRST', 'Declaration of template inheritance ("extends") should be the first thing in the file.', node);
+      }
+    }
+  });
 }
