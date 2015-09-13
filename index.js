@@ -19,15 +19,16 @@ function link(ast) {
   if (extendsNode) {
     var mixins = [];
     var expectedBlocks = [];
-    for (var i = 0; i < ast.nodes.length; i++) {
-      if (ast.nodes[i].type === 'NamedBlock') {
-        expectedBlocks.push(ast.nodes[i].name);
-      } else if (ast.nodes[i].type === 'Mixin' && ast.nodes[i].call === false) {
-        mixins.push(ast.nodes[i]);
+    function addNode(node) {
+      if (node.type === 'NamedBlock') {
+        expectedBlocks.push(node.name);
+      } else if (node.type === 'Mixin' && node.call === false) {
+        mixins.push(node);
       } else {
-        error('UNEXPECTED_NODES_IN_EXTENDING_ROOT', 'Only named blocks and mixins can appear at the top level of an extending template', ast.nodes[i]);
+        error('UNEXPECTED_NODES_IN_EXTENDING_ROOT', 'Only named blocks and mixins can appear at the top level of an extending template', node);
       }
     }
+    ast.nodes.forEach(addNode);
     var parent = link(extendsNode.file.ast);
     extend(parent.declaredBlocks, ast);
     walk(parent, function (node) {
