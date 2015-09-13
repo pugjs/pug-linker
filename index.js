@@ -22,6 +22,8 @@ function link(ast) {
     function addNode(node) {
       if (node.type === 'NamedBlock') {
         expectedBlocks.push(node.name);
+      } else if (node.type === 'Block') {
+        node.nodes.forEach(addNode);
       } else if (node.type === 'Mixin' && node.call === false) {
         mixins.push(node);
       } else {
