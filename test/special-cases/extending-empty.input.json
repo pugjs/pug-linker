@@ -5,16 +5,16 @@
       "type": "Extends",
       "file": {
         "type": "FileReference",
-        "path": "empty",
+        "path": "../fixtures/empty",
         "line": 1,
         "filename": "extending-empty.jade",
-        "fullPath": "empty.jade",
+        "fullPath": "../fixtures/empty.jade",
         "str": "",
         "ast": {
           "type": "Block",
           "nodes": [],
           "line": 0,
-          "filename": "empty.jade"
+          "filename": "../fixtures/empty.jade"
         }
       },
       "line": 1,
