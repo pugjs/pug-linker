@@ -22,9 +22,19 @@ function testDirError (dir) {
     if (!/\.input\.json$/.test(name)) return;
     test(name, function () {
       var input = JSON.parse(fs.readFileSync(dir + '/' + name, 'utf8'));
-      assert.throws(function () {
+      var err;
+      try {
         link(input);
-      });
+      } catch (ex) {
+        err = {
+          msg:  ex.msg,
+          code: ex.code,
+          line: ex.line
+        };
+      }
+      if (!err) throw new Error('Expected error')
+      var expectedError = JSON.parse(fs.readFileSync(dir + '/' + name.replace(/\.input\.json$/, '.expected.json')));
+      assertObjEqual(err, expectedError);
     });
   });
 }
