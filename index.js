@@ -11,23 +11,30 @@ module.exports = link;
 function link(ast) {
   assert(ast.type === 'Block', 'The top level element should always be a block');
   var extendsNode = null;
-  if (ast.nodes.length && ast.nodes[0].type === 'Extends') {
-    extendsNode = ast.nodes.shift();
+  if (ast.nodes.length) {
+    var hasExtends = ast.nodes[0].type === 'Extends';
+    if (hasExtends) {
+      extendsNode = ast.nodes.shift();
+    }
+    checkExtendPosition(ast, hasExtends);
   }
   ast = applyIncludes(ast);
   ast.declaredBlocks = findDeclaredBlocks(ast);
   if (extendsNode) {
     var mixins = [];
     var expectedBlocks = [];
-    for (var i = 0; i < ast.nodes.length; i++) {
-      if (ast.nodes[i].type === 'NamedBlock') {
-        expectedBlocks.push(ast.nodes[i].name);
-      } else if (ast.nodes[i].type === 'Mixin' && ast.nodes[i].call === false) {
-        mixins.push(ast.nodes[i]);
+    function addNode(node) {
+      if (node.type === 'NamedBlock') {
+        expectedBlocks.push(node.name);
+      } else if (node.type === 'Block') {
+        node.nodes.forEach(addNode);
+      } else if (node.type === 'Mixin' && node.call === false) {
+        mixins.push(node);
       } else {
-        error('UNEXPECTED_NODES_IN_EXTENDING_ROOT', 'Only named blocks and mixins can appear at the top level of an extending template', ast.nodes[i]);
+        error('UNEXPECTED_NODES_IN_EXTENDING_ROOT', 'Only named blocks and mixins can appear at the top level of an extending template', node);
       }
     }
+    ast.nodes.forEach(addNode);
     var parent = link(extendsNode.file.ast);
     extend(parent.declaredBlocks, ast);
     walk(parent, function (node) {
@@ -139,4 +146,16 @@ function applyYield(ast, block) {
     defaultYieldLocation(ast).nodes.push(block);
   }
   return ast;
+}
+function checkExtendPosition(ast, hasExtends) {
+  var legitExtendsReached = false;
+  walk(ast, function (node) {
+    if (node.type === 'Extends') {
+      if (hasExtends && !legitExtendsReached) {
+        legitExtendsReached = true;
+      } else {
+        error('EXTENDS_NOT_FIRST', 'Declaration of template inheritance ("extends") should be the first thing in the file.', node);
+      }
+    }
+  });
 }

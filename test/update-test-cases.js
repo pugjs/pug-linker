@@ -97,6 +97,7 @@ function updateDirErrored (outDir, originalFileDir, inputFiles) {
   function update (jadeName) {
     var name = jadeName.replace(/\.jade$/, '');
     var inputName = name + '.input.json';
+    var expectedName = name + '.expected.json';
     var alreadyExists = existing.indexOf(inputName) !== -1;
     var actualInputAst = load.file(jadeName, {
       lex: lex,
@@ -131,7 +132,11 @@ function updateDirErrored (outDir, originalFileDir, inputFiles) {
         link(actualInputAst);
         success = true;
       } catch (ex) {
-        // fs.writeFileSync(outDir + '/' + expectedName, ex.message);
+        fs.writeFileSync(outDir + '/' + expectedName, JSON.stringify({
+          msg:  ex.msg,
+          code: ex.code,
+          line: ex.line
+        }, null, 2));
       }
       if (success) throw new Error(inputName + ' links without error');
     } else {
