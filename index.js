@@ -124,9 +124,10 @@ function applyYield(ast, block) {
   if (!block || !block.nodes.length) return ast;
   var replaced = false;
   ast = walk(ast, null, function (node, replace) {
-    if (node.type === 'Block' && node.yield === true) {
+    if (node.type === 'YieldBlock') {
       replaced = true;
-      node.nodes.push(block);
+      node.type = 'Block';
+      node.nodes = [block];
     }
   });
   function defaultYieldLocation(node) {
