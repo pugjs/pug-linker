@@ -100,23 +100,13 @@ function extend(parentBlocks, ast) {
   });
 }
 function applyIncludes(ast, child) {
-  return walk(ast, function before(node) {
-
+  return walk(ast, function before(node, replace) {
+    if (node.type === 'RawInclude') {
+      replace({type: 'Text', val: node.file.str.replace(/\r/g, '')});
+    }
   }, function after(node, replace) {
     if (node.type === 'Include') {
-      if (node.filter) {
-        replace({
-          type: 'Filter',
-          name: node.filter,
-          block: {type: 'Block', nodes: [ {type: 'Text', val: node.file.str.replace(/\r/g, '')} ] },
-          attrs: node.attrs,
-          filename: node.fullPath
-        });
-      } else if (/\.jade$/.test(node.file.fullPath)) {
-        replace(applyYield(link(node.file.ast), node.block));
-      } else {
-        replace({type: 'Text', val: node.file.str.replace(/\r/g, '')});
-      }
+      replace(applyYield(link(node.file.ast), node.block));
     }
   });
 }
