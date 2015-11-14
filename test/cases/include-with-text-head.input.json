@@ -20,13 +20,15 @@
                   "val": "alert('hello world');",
                   "line": 3
                 }
-              ]
+              ],
+              "line": 2,
+              "filename": "include-with-text-head.jade"
             },
             "attrs": [
               {
                 "name": "type",
                 "val": "'text/javascript'",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
@@ -35,7 +37,9 @@
             "filename": "include-with-text-head.jade",
             "textOnly": true
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "include-with-text-head.jade"
       },
       "attrs": [],
       "attributeBlocks": [],

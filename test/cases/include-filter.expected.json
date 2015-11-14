@@ -16,18 +16,8 @@
               "type": "Block",
               "nodes": [
                 {
-                  "type": "Filter",
-                  "name": "marked",
-                  "block": {
-                    "type": "Block",
-                    "nodes": [
-                      {
-                        "type": "Text",
-                        "val": "Just _some_ markdown **tests**.\n\nWith new line.\n"
-                      }
-                    ]
-                  },
-                  "attrs": []
+                  "type": "Text",
+                  "val": "Just _some_ markdown **tests**.\n\nWith new line.\n"
                 },
                 {
                   "type": "Tag",
@@ -37,26 +27,12 @@
                     "type": "Block",
                     "nodes": [
                       {
-                        "type": "Filter",
-                        "name": "coffee-script",
-                        "block": {
-                          "type": "Block",
-                          "nodes": [
-                            {
-                              "type": "Text",
-                              "val": "math =\n  square: (value) -> value * value\n"
-                            }
-                          ]
-                        },
-                        "attrs": [
-                          {
-                            "name": "minify",
-                            "val": "true",
-                            "escaped": true
-                          }
-                        ]
+                        "type": "Text",
+                        "val": "math =\n  square: (value) -> value * value\n"
                       }
-                    ]
+                    ],
+                    "line": 4,
+                    "filename": "include-filter.jade"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
@@ -72,26 +48,12 @@
                     "type": "Block",
                     "nodes": [
                       {
-                        "type": "Filter",
-                        "name": "coffee-script",
-                        "block": {
-                          "type": "Block",
-                          "nodes": [
-                            {
-                              "type": "Text",
-                              "val": "math =\n  square: (value) -> value * value\n"
-                            }
-                          ]
-                        },
-                        "attrs": [
-                          {
-                            "name": "minify",
-                            "val": "false",
-                            "escaped": true
-                          }
-                        ]
+                        "type": "Text",
+                        "val": "math =\n  square: (value) -> value * value\n"
                       }
-                    ]
+                    ],
+                    "line": 6,
+                    "filename": "include-filter.jade"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
@@ -99,7 +61,9 @@
                   "line": 6,
                   "filename": "include-filter.jade"
                 }
-              ]
+              ],
+              "line": 2,
+              "filename": "include-filter.jade"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -107,7 +71,9 @@
             "line": 2,
             "filename": "include-filter.jade"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "include-filter.jade"
       },
       "attrs": [],
       "attributeBlocks": [],

@@ -30,13 +30,15 @@
                             "val": "alert('hello world');",
                             "line": 3
                           }
-                        ]
+                        ],
+                        "line": 2,
+                        "filename": "include-with-text-head.jade"
                       },
                       "attrs": [
                         {
                           "name": "type",
                           "val": "'text/javascript'",
-                          "escaped": true
+                          "mustEscape": true
                         }
                       ],
                       "attributeBlocks": [],
@@ -54,13 +56,15 @@
                           "selfClosing": false,
                           "block": {
                             "type": "Block",
-                            "nodes": []
+                            "nodes": [],
+                            "line": 3,
+                            "filename": "include-with-text.jade"
                           },
                           "attrs": [
                             {
                               "name": "src",
                               "val": "'/caustic.js'",
-                              "escaped": true
+                              "mustEscape": true
                             }
                           ],
                           "attributeBlocks": [],
@@ -74,13 +78,15 @@
                           "selfClosing": false,
                           "block": {
                             "type": "Block",
-                            "nodes": []
+                            "nodes": [],
+                            "line": 4,
+                            "filename": "include-with-text.jade"
                           },
                           "attrs": [
                             {
                               "name": "src",
                               "val": "'/app.js'",
-                              "escaped": true
+                              "mustEscape": true
                             }
                           ],
                           "attributeBlocks": [],
@@ -92,7 +98,9 @@
                       "line": 3,
                       "filename": "include-with-text.jade"
                     }
-                  ]
+                  ],
+                  "line": 1,
+                  "filename": "include-with-text-head.jade"
                 },
                 "attrs": [],
                 "attributeBlocks": [],
@@ -105,7 +113,9 @@
             "filename": "include-with-text-head.jade",
             "declaredBlocks": {}
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "include-with-text.jade"
       },
       "attrs": [],
       "attributeBlocks": [],

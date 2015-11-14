@@ -14,13 +14,15 @@
             "selfClosing": false,
             "block": {
               "type": "Block",
-              "nodes": []
+              "nodes": [],
+              "line": 2,
+              "filename": "../fixtures/mixins.jade"
             },
             "attrs": [
               {
                 "name": "cl-src",
                 "val": "src",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [
@@ -40,6 +42,7 @@
     },
     {
       "type": "Doctype",
+      "val": "",
       "line": 1,
       "filename": "../fixtures/layout.jade"
     },
@@ -73,7 +76,9 @@
                   "name": "head",
                   "mode": "replace"
                 }
-              ]
+              ],
+              "line": 4,
+              "filename": "../fixtures/layout.jade"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -101,12 +106,12 @@
                         {
                           "name": "class",
                           "val": "'with-border'",
-                          "escaped": false
+                          "mustEscape": false
                         },
                         {
                           "name": "alt",
                           "val": "\"My image\"",
-                          "escaped": true
+                          "mustEscape": true
                         }
                       ],
                       "attributeBlocks": [],
@@ -119,7 +124,9 @@
                   "name": "body",
                   "mode": "replace"
                 }
-              ]
+              ],
+              "line": 7,
+              "filename": "../fixtures/layout.jade"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -127,7 +134,9 @@
             "line": 7,
             "filename": "../fixtures/layout.jade"
           }
-        ]
+        ],
+        "line": 3,
+        "filename": "../fixtures/layout.jade"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -168,12 +177,12 @@
             {
               "name": "class",
               "val": "'with-border'",
-              "escaped": false
+              "mustEscape": false
             },
             {
               "name": "alt",
               "val": "\"My image\"",
-              "escaped": true
+              "mustEscape": true
             }
           ],
           "attributeBlocks": [],
@@ -198,12 +207,12 @@
               {
                 "name": "class",
                 "val": "'with-border'",
-                "escaped": false
+                "mustEscape": false
               },
               {
                 "name": "alt",
                 "val": "\"My image\"",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],

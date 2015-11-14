@@ -26,9 +26,9 @@
                         "type": "Include",
                         "file": {
                           "type": "FileReference",
-                          "path": "include-only-text-body",
                           "line": 4,
                           "filename": "include-only-text.jade",
+                          "path": "include-only-text-body.jade",
                           "fullPath": "include-only-text-body.jade",
                           "str": "| The message is \"\nyield\n| \"\n",
                           "ast": {
@@ -41,11 +41,9 @@
                                 "filename": "include-only-text-body.jade"
                               },
                               {
-                                "type": "Block",
-                                "nodes": [],
+                                "type": "YieldBlock",
                                 "line": 2,
-                                "filename": "include-only-text-body.jade",
-                                "yield": true
+                                "filename": "include-only-text-body.jade"
                               },
                               {
                                 "type": "Text",
@@ -58,7 +56,8 @@
                             "filename": "include-only-text-body.jade"
                           }
                         },
-                        "attrs": [],
+                        "line": 4,
+                        "filename": "include-only-text.jade",
                         "block": {
                           "type": "Block",
                           "nodes": [
@@ -75,7 +74,9 @@
                                     "line": 5,
                                     "filename": "include-only-text.jade"
                                   }
-                                ]
+                                ],
+                                "line": 5,
+                                "filename": "include-only-text.jade"
                               },
                               "attrs": [],
                               "attributeBlocks": [],
@@ -86,11 +87,11 @@
                           ],
                           "line": 5,
                           "filename": "include-only-text.jade"
-                        },
-                        "line": 4,
-                        "filename": "include-only-text.jade"
+                        }
                       }
-                    ]
+                    ],
+                    "line": 3,
+                    "filename": "include-only-text.jade"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
@@ -98,7 +99,9 @@
                   "line": 3,
                   "filename": "include-only-text.jade"
                 }
-              ]
+              ],
+              "line": 2,
+              "filename": "include-only-text.jade"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -106,7 +109,9 @@
             "line": 2,
             "filename": "include-only-text.jade"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "include-only-text.jade"
       },
       "attrs": [],
       "attributeBlocks": [],

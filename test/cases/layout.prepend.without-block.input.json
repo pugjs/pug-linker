@@ -5,11 +5,11 @@
       "type": "Extends",
       "file": {
         "type": "FileReference",
-        "path": "../fixtures/prepend-without-block/app-layout",
+        "path": "../fixtures/prepend-without-block/app-layout.jade",
         "line": 2,
         "filename": "layout.prepend.without-block.jade",
         "fullPath": "../fixtures/prepend-without-block/app-layout.jade",
-        "str": "\nextends layout\n\nprepend head\n  script(src='app.js')",
+        "str": "\nextends layout.jade\n\nprepend head\n  script(src='app.js')\n",
         "ast": {
           "type": "Block",
           "nodes": [
@@ -17,7 +17,7 @@
               "type": "Extends",
               "file": {
                 "type": "FileReference",
-                "path": "layout",
+                "path": "layout.jade",
                 "line": 2,
                 "filename": "../fixtures/prepend-without-block/app-layout.jade",
                 "fullPath": "../fixtures/prepend-without-block/layout.jade",
@@ -41,13 +41,15 @@
                                 "selfClosing": false,
                                 "block": {
                                   "type": "Block",
-                                  "nodes": []
+                                  "nodes": [],
+                                  "line": 4,
+                                  "filename": "../fixtures/prepend-without-block/layout.jade"
                                 },
                                 "attrs": [
                                   {
                                     "name": "src",
                                     "val": "'vendor/jquery.js'",
-                                    "escaped": true
+                                    "mustEscape": true
                                   }
                                 ],
                                 "attributeBlocks": [],
@@ -61,13 +63,15 @@
                                 "selfClosing": false,
                                 "block": {
                                   "type": "Block",
-                                  "nodes": []
+                                  "nodes": [],
+                                  "line": 5,
+                                  "filename": "../fixtures/prepend-without-block/layout.jade"
                                 },
                                 "attrs": [
                                   {
                                     "name": "src",
                                     "val": "'vendor/caustic.js'",
-                                    "escaped": true
+                                    "mustEscape": true
                                   }
                                 ],
                                 "attributeBlocks": [],
@@ -96,7 +100,9 @@
                                   "name": "body",
                                   "mode": "replace"
                                 }
-                              ]
+                              ],
+                              "line": 6,
+                              "filename": "../fixtures/prepend-without-block/layout.jade"
                             },
                             "attrs": [],
                             "attributeBlocks": [],
@@ -104,7 +110,9 @@
                             "line": 6,
                             "filename": "../fixtures/prepend-without-block/layout.jade"
                           }
-                        ]
+                        ],
+                        "line": 2,
+                        "filename": "../fixtures/prepend-without-block/layout.jade"
                       },
                       "attrs": [],
                       "attributeBlocks": [],
@@ -129,13 +137,15 @@
                   "selfClosing": false,
                   "block": {
                     "type": "Block",
-                    "nodes": []
+                    "nodes": [],
+                    "line": 5,
+                    "filename": "../fixtures/prepend-without-block/app-layout.jade"
                   },
                   "attrs": [
                     {
                       "name": "src",
                       "val": "'app.js'",
-                      "escaped": true
+                      "mustEscape": true
                     }
                   ],
                   "attributeBlocks": [],
@@ -166,13 +176,15 @@
           "selfClosing": false,
           "block": {
             "type": "Block",
-            "nodes": []
+            "nodes": [],
+            "line": 5,
+            "filename": "layout.prepend.without-block.jade"
           },
           "attrs": [
             {
               "name": "src",
               "val": "'foo.js'",
-              "escaped": true
+              "mustEscape": true
             }
           ],
           "attributeBlocks": [],
@@ -186,13 +198,15 @@
           "selfClosing": false,
           "block": {
             "type": "Block",
-            "nodes": []
+            "nodes": [],
+            "line": 6,
+            "filename": "layout.prepend.without-block.jade"
           },
           "attrs": [
             {
               "name": "src",
               "val": "'bar.js'",
-              "escaped": true
+              "mustEscape": true
             }
           ],
           "attributeBlocks": [],

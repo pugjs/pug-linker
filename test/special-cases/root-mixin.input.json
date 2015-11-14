@@ -5,7 +5,7 @@
       "type": "Extends",
       "file": {
         "type": "FileReference",
-        "path": "../fixtures/layout",
+        "path": "../fixtures/layout.jade",
         "line": 1,
         "filename": "root-mixin.jade",
         "fullPath": "../fixtures/layout.jade",
@@ -15,6 +15,7 @@
           "nodes": [
             {
               "type": "Doctype",
+              "val": "",
               "line": 1,
               "filename": "../fixtures/layout.jade"
             },
@@ -48,7 +49,9 @@
                           "name": "head",
                           "mode": "replace"
                         }
-                      ]
+                      ],
+                      "line": 4,
+                      "filename": "../fixtures/layout.jade"
                     },
                     "attrs": [],
                     "attributeBlocks": [],
@@ -71,7 +74,9 @@
                           "name": "body",
                           "mode": "replace"
                         }
-                      ]
+                      ],
+                      "line": 7,
+                      "filename": "../fixtures/layout.jade"
                     },
                     "attrs": [],
                     "attributeBlocks": [],
@@ -79,7 +84,9 @@
                     "line": 7,
                     "filename": "../fixtures/layout.jade"
                   }
-                ]
+                ],
+                "line": 3,
+                "filename": "../fixtures/layout.jade"
               },
               "attrs": [],
               "attributeBlocks": [],
@@ -115,7 +122,9 @@
                   "line": 4,
                   "filename": "root-mixin.jade"
                 }
-              ]
+              ],
+              "line": 4,
+              "filename": "root-mixin.jade"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -147,7 +156,9 @@
                 "line": 7,
                 "filename": "root-mixin.jade"
               }
-            ]
+            ],
+            "line": 7,
+            "filename": "root-mixin.jade"
           },
           "attrs": [],
           "attributeBlocks": [],
@@ -158,6 +169,7 @@
         {
           "type": "Mixin",
           "name": "myMixin",
+          "args": null,
           "block": null,
           "call": true,
           "attrs": [],
@@ -178,7 +190,9 @@
                 "line": 9,
                 "filename": "root-mixin.jade"
               }
-            ]
+            ],
+            "line": 9,
+            "filename": "root-mixin.jade"
           },
           "attrs": [],
           "attributeBlocks": [],

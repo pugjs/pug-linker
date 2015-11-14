@@ -5,11 +5,11 @@
       "type": "Extends",
       "file": {
         "type": "FileReference",
-        "path": "../fixtures/multi-append-prepend-block/redefine",
+        "path": "../fixtures/multi-append-prepend-block/redefine.jade",
         "line": 1,
         "filename": "layout.multi.append.prepend.block.jade",
         "fullPath": "../fixtures/multi-append-prepend-block/redefine.jade",
-        "str": "extends root\n\nblock content\n\t.content\n\t\t| Defined content",
+        "str": "extends root.jade\n\nblock content\n\t.content\n\t\t| Defined content\n",
         "ast": {
           "type": "Block",
           "nodes": [
@@ -17,7 +17,7 @@
               "type": "Extends",
               "file": {
                 "type": "FileReference",
-                "path": "root",
+                "path": "root.jade",
                 "line": 1,
                 "filename": "../fixtures/multi-append-prepend-block/redefine.jade",
                 "fullPath": "../fixtures/multi-append-prepend-block/root.jade",
@@ -49,13 +49,15 @@
                           "selfClosing": false,
                           "block": {
                             "type": "Block",
-                            "nodes": []
+                            "nodes": [],
+                            "line": 5,
+                            "filename": "../fixtures/multi-append-prepend-block/root.jade"
                           },
                           "attrs": [
                             {
                               "name": "src",
                               "val": "'/app.js'",
-                              "escaped": true
+                              "mustEscape": true
                             }
                           ],
                           "attributeBlocks": [],
@@ -83,6 +85,7 @@
                 {
                   "type": "Tag",
                   "name": "div",
+                  "selfClosing": false,
                   "block": {
                     "type": "Block",
                     "nodes": [
@@ -92,13 +95,15 @@
                         "line": 5,
                         "filename": "../fixtures/multi-append-prepend-block/redefine.jade"
                       }
-                    ]
+                    ],
+                    "line": 4,
+                    "filename": "../fixtures/multi-append-prepend-block/redefine.jade"
                   },
                   "attrs": [
                     {
                       "name": "class",
                       "val": "'content'",
-                      "escaped": false
+                      "mustEscape": false
                     }
                   ],
                   "attributeBlocks": [],
@@ -136,18 +141,20 @@
                 "line": 4,
                 "filename": "layout.multi.append.prepend.block.jade"
               }
-            ]
+            ],
+            "line": 4,
+            "filename": "layout.multi.append.prepend.block.jade"
           },
           "attrs": [
             {
               "name": "class",
               "val": "'first'",
-              "escaped": false
+              "mustEscape": false
             },
             {
               "name": "class",
               "val": "'append'",
-              "escaped": false
+              "mustEscape": false
             }
           ],
           "attributeBlocks": [],
@@ -177,18 +184,20 @@
                 "line": 7,
                 "filename": "layout.multi.append.prepend.block.jade"
               }
-            ]
+            ],
+            "line": 7,
+            "filename": "layout.multi.append.prepend.block.jade"
           },
           "attrs": [
             {
               "name": "class",
               "val": "'first'",
-              "escaped": false
+              "mustEscape": false
             },
             {
               "name": "class",
               "val": "'prepend'",
-              "escaped": false
+              "mustEscape": false
             }
           ],
           "attributeBlocks": [],
@@ -218,18 +227,20 @@
                 "line": 10,
                 "filename": "layout.multi.append.prepend.block.jade"
               }
-            ]
+            ],
+            "line": 10,
+            "filename": "layout.multi.append.prepend.block.jade"
           },
           "attrs": [
             {
               "name": "class",
               "val": "'last'",
-              "escaped": false
+              "mustEscape": false
             },
             {
               "name": "class",
               "val": "'append'",
-              "escaped": false
+              "mustEscape": false
             }
           ],
           "attributeBlocks": [],
@@ -259,18 +270,20 @@
                 "line": 13,
                 "filename": "layout.multi.append.prepend.block.jade"
               }
-            ]
+            ],
+            "line": 13,
+            "filename": "layout.multi.append.prepend.block.jade"
           },
           "attrs": [
             {
               "name": "class",
               "val": "'last'",
-              "escaped": false
+              "mustEscape": false
             },
             {
               "name": "class",
               "val": "'prepend'",
-              "escaped": false
+              "mustEscape": false
             }
           ],
           "attributeBlocks": [],
@@ -293,13 +306,15 @@
           "selfClosing": false,
           "block": {
             "type": "Block",
-            "nodes": []
+            "nodes": [],
+            "line": 16,
+            "filename": "layout.multi.append.prepend.block.jade"
           },
           "attrs": [
             {
               "name": "src",
               "val": "'jquery.js'",
-              "escaped": true
+              "mustEscape": true
             }
           ],
           "attributeBlocks": [],
@@ -322,13 +337,15 @@
           "selfClosing": false,
           "block": {
             "type": "Block",
-            "nodes": []
+            "nodes": [],
+            "line": 19,
+            "filename": "layout.multi.append.prepend.block.jade"
           },
           "attrs": [
             {
               "name": "src",
               "val": "'foo.js'",
-              "escaped": true
+              "mustEscape": true
             }
           ],
           "attributeBlocks": [],

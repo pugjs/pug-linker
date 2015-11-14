@@ -5,11 +5,11 @@
       "type": "Include",
       "file": {
         "type": "FileReference",
-        "path": "/auxiliary/extends-from-root",
         "line": 1,
         "filename": "include-extends-from-root.jade",
+        "path": "/auxiliary/extends-from-root.jade",
         "fullPath": "auxiliary/extends-from-root.jade",
-        "str": "extends /auxiliary/layout\n\nblock content\n    include /auxiliary/include-from-root",
+        "str": "extends /auxiliary/layout.jade\n\nblock content\n    include /auxiliary/include-from-root.jade\n",
         "ast": {
           "type": "Block",
           "nodes": [
@@ -17,7 +17,7 @@
               "type": "Extends",
               "file": {
                 "type": "FileReference",
-                "path": "/auxiliary/layout",
+                "path": "/auxiliary/layout.jade",
                 "line": 1,
                 "filename": "auxiliary/extends-from-root.jade",
                 "fullPath": "auxiliary/layout.jade",
@@ -52,7 +52,9 @@
                                         "line": 3,
                                         "filename": "auxiliary/layout.jade"
                                       }
-                                    ]
+                                    ],
+                                    "line": 3,
+                                    "filename": "auxiliary/layout.jade"
                                   },
                                   "attrs": [],
                                   "attributeBlocks": [],
@@ -68,7 +70,9 @@
                                   "name": "head",
                                   "mode": "replace"
                                 }
-                              ]
+                              ],
+                              "line": 2,
+                              "filename": "auxiliary/layout.jade"
                             },
                             "attrs": [],
                             "attributeBlocks": [],
@@ -91,7 +95,9 @@
                                   "name": "content",
                                   "mode": "replace"
                                 }
-                              ]
+                              ],
+                              "line": 5,
+                              "filename": "auxiliary/layout.jade"
                             },
                             "attrs": [],
                             "attributeBlocks": [],
@@ -99,7 +105,9 @@
                             "line": 5,
                             "filename": "auxiliary/layout.jade"
                           }
-                        ]
+                        ],
+                        "line": 1,
+                        "filename": "auxiliary/layout.jade"
                       },
                       "attrs": [],
                       "attributeBlocks": [],
@@ -122,9 +130,9 @@
                   "type": "Include",
                   "file": {
                     "type": "FileReference",
-                    "path": "/auxiliary/include-from-root",
                     "line": 4,
                     "filename": "auxiliary/extends-from-root.jade",
+                    "path": "/auxiliary/include-from-root.jade",
                     "fullPath": "auxiliary/include-from-root.jade",
                     "str": "h1 hello",
                     "ast": {
@@ -143,7 +151,9 @@
                                 "line": 1,
                                 "filename": "auxiliary/include-from-root.jade"
                               }
-                            ]
+                            ],
+                            "line": 1,
+                            "filename": "auxiliary/include-from-root.jade"
                           },
                           "attrs": [],
                           "attributeBlocks": [],
@@ -156,13 +166,14 @@
                       "filename": "auxiliary/include-from-root.jade"
                     }
                   },
-                  "attrs": [],
+                  "line": 4,
+                  "filename": "auxiliary/extends-from-root.jade",
                   "block": {
                     "type": "Block",
-                    "nodes": []
-                  },
-                  "line": 4,
-                  "filename": "auxiliary/extends-from-root.jade"
+                    "nodes": [],
+                    "line": 4,
+                    "filename": "auxiliary/extends-from-root.jade"
+                  }
                 }
               ],
               "line": 3,
@@ -175,13 +186,14 @@
           "filename": "auxiliary/extends-from-root.jade"
         }
       },
-      "attrs": [],
+      "line": 1,
+      "filename": "include-extends-from-root.jade",
       "block": {
         "type": "Block",
-        "nodes": []
-      },
-      "line": 1,
-      "filename": "include-extends-from-root.jade"
+        "nodes": [],
+        "line": 1,
+        "filename": "include-extends-from-root.jade"
+      }
     }
   ],
   "line": 0,

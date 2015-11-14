@@ -17,7 +17,9 @@
                 "line": 2,
                 "filename": "extends-not-first.jade"
               }
-            ]
+            ],
+            "line": 2,
+            "filename": "extends-not-first.jade"
           },
           "attrs": [],
           "attributeBlocks": [],
@@ -45,6 +47,7 @@
           "nodes": [
             {
               "type": "Doctype",
+              "val": "",
               "line": 1,
               "filename": "../fixtures/layout.jade"
             },
@@ -78,7 +81,9 @@
                           "name": "head",
                           "mode": "replace"
                         }
-                      ]
+                      ],
+                      "line": 4,
+                      "filename": "../fixtures/layout.jade"
                     },
                     "attrs": [],
                     "attributeBlocks": [],
@@ -101,7 +106,9 @@
                           "name": "body",
                           "mode": "replace"
                         }
-                      ]
+                      ],
+                      "line": 7,
+                      "filename": "../fixtures/layout.jade"
                     },
                     "attrs": [],
                     "attributeBlocks": [],
@@ -109,7 +116,9 @@
                     "line": 7,
                     "filename": "../fixtures/layout.jade"
                   }
-                ]
+                ],
+                "line": 3,
+                "filename": "../fixtures/layout.jade"
               },
               "attrs": [],
               "attributeBlocks": [],

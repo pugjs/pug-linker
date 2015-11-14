@@ -12,9 +12,9 @@
             "type": "Include",
             "file": {
               "type": "FileReference",
-              "path": "include-with-text-head",
               "line": 2,
               "filename": "include-with-text.jade",
+              "path": "include-with-text-head.jade",
               "fullPath": "include-with-text-head.jade",
               "str": "head\n  script(type='text/javascript').\n    alert('hello world');\n",
               "ast": {
@@ -39,13 +39,15 @@
                                 "val": "alert('hello world');",
                                 "line": 3
                               }
-                            ]
+                            ],
+                            "line": 2,
+                            "filename": "include-with-text-head.jade"
                           },
                           "attrs": [
                             {
                               "name": "type",
                               "val": "'text/javascript'",
-                              "escaped": true
+                              "mustEscape": true
                             }
                           ],
                           "attributeBlocks": [],
@@ -54,7 +56,9 @@
                           "filename": "include-with-text-head.jade",
                           "textOnly": true
                         }
-                      ]
+                      ],
+                      "line": 1,
+                      "filename": "include-with-text-head.jade"
                     },
                     "attrs": [],
                     "attributeBlocks": [],
@@ -67,7 +71,8 @@
                 "filename": "include-with-text-head.jade"
               }
             },
-            "attrs": [],
+            "line": 2,
+            "filename": "include-with-text.jade",
             "block": {
               "type": "Block",
               "nodes": [
@@ -77,13 +82,15 @@
                   "selfClosing": false,
                   "block": {
                     "type": "Block",
-                    "nodes": []
+                    "nodes": [],
+                    "line": 3,
+                    "filename": "include-with-text.jade"
                   },
                   "attrs": [
                     {
                       "name": "src",
                       "val": "'/caustic.js'",
-                      "escaped": true
+                      "mustEscape": true
                     }
                   ],
                   "attributeBlocks": [],
@@ -97,13 +104,15 @@
                   "selfClosing": false,
                   "block": {
                     "type": "Block",
-                    "nodes": []
+                    "nodes": [],
+                    "line": 4,
+                    "filename": "include-with-text.jade"
                   },
                   "attrs": [
                     {
                       "name": "src",
                       "val": "'/app.js'",
-                      "escaped": true
+                      "mustEscape": true
                     }
                   ],
                   "attributeBlocks": [],
@@ -114,11 +123,11 @@
               ],
               "line": 3,
               "filename": "include-with-text.jade"
-            },
-            "line": 2,
-            "filename": "include-with-text.jade"
+            }
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "include-with-text.jade"
       },
       "attrs": [],
       "attributeBlocks": [],

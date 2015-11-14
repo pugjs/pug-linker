@@ -5,9 +5,9 @@
       "type": "Include",
       "file": {
         "type": "FileReference",
-        "path": "auxiliary/mixins",
         "line": 2,
         "filename": "includes.jade",
+        "path": "auxiliary/mixins.jade",
         "fullPath": "auxiliary/mixins.jade",
         "str": "\nmixin foo()\n  p bar",
         "ast": {
@@ -33,7 +33,9 @@
                           "line": 3,
                           "filename": "auxiliary/mixins.jade"
                         }
-                      ]
+                      ],
+                      "line": 3,
+                      "filename": "auxiliary/mixins.jade"
                     },
                     "attrs": [],
                     "attributeBlocks": [],
@@ -54,17 +56,19 @@
           "filename": "auxiliary/mixins.jade"
         }
       },
-      "attrs": [],
+      "line": 2,
+      "filename": "includes.jade",
       "block": {
         "type": "Block",
-        "nodes": []
-      },
-      "line": 2,
-      "filename": "includes.jade"
+        "nodes": [],
+        "line": 2,
+        "filename": "includes.jade"
+      }
     },
     {
       "type": "Mixin",
       "name": "foo",
+      "args": null,
       "block": null,
       "call": true,
       "attrs": [],
@@ -80,40 +84,32 @@
         "type": "Block",
         "nodes": [
           {
-            "type": "Include",
+            "type": "RawInclude",
             "file": {
               "type": "FileReference",
-              "path": "auxiliary/smile.html",
               "line": 7,
               "filename": "includes.jade",
+              "path": "auxiliary/smile.html",
               "fullPath": "auxiliary/smile.html",
               "str": "<p>:)</p>"
             },
-            "attrs": [],
-            "block": {
-              "type": "Block",
-              "nodes": []
-            },
             "line": 7,
-            "filename": "includes.jade"
+            "filename": "includes.jade",
+            "filters": []
           },
           {
-            "type": "Include",
+            "type": "RawInclude",
             "file": {
               "type": "FileReference",
-              "path": "auxiliary/escapes.html",
               "line": 8,
               "filename": "includes.jade",
+              "path": "auxiliary/escapes.html",
               "fullPath": "auxiliary/escapes.html",
               "str": "<script>\n  console.log(\"foo\\nbar\")\n</script>"
             },
-            "attrs": [],
-            "block": {
-              "type": "Block",
-              "nodes": []
-            },
             "line": 8,
-            "filename": "includes.jade"
+            "filename": "includes.jade",
+            "filters": []
           },
           {
             "type": "Tag",
@@ -123,31 +119,36 @@
               "type": "Block",
               "nodes": [
                 {
-                  "type": "Include",
+                  "type": "RawInclude",
                   "file": {
                     "type": "FileReference",
-                    "path": "auxiliary/includable.js",
                     "line": 10,
                     "filename": "includes.jade",
+                    "path": "auxiliary/includable.js",
                     "fullPath": "auxiliary/includable.js",
                     "str": "var STRING_SUBSTITUTIONS = {    // table of character substitutions\n  '\\t': '\\\\t',\n  '\\r': '\\\\r',\n  '\\n': '\\\\n',\n  '\"' : '\\\\\"',\n  '\\\\': '\\\\\\\\'\n};"
                   },
-                  "filter": "verbatim",
-                  "attrs": [],
-                  "block": {
-                    "type": "Block",
-                    "nodes": []
-                  },
                   "line": 10,
-                  "filename": "includes.jade"
+                  "filename": "includes.jade",
+                  "filters": [
+                    {
+                      "type": "IncludeFilter",
+                      "name": "verbatim",
+                      "attrs": [],
+                      "line": 10,
+                      "filename": "includes.jade"
+                    }
+                  ]
                 }
-              ]
+              ],
+              "line": 9,
+              "filename": "includes.jade"
             },
             "attrs": [
               {
                 "name": "type",
                 "val": "\"text/javascript\"",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
@@ -155,7 +156,9 @@
             "line": 9,
             "filename": "includes.jade"
           }
-        ]
+        ],
+        "line": 6,
+        "filename": "includes.jade"
       },
       "attrs": [],
       "attributeBlocks": [],

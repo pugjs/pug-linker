@@ -19,7 +19,9 @@
                   "type": "Text",
                   "val": "var x = \"\\n here is some \\n new lined text\";\n"
                 }
-              ]
+              ],
+              "line": 2,
+              "filename": "includes-with-ext-js.jade"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -27,7 +29,9 @@
             "line": 2,
             "filename": "includes-with-ext-js.jade"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "includes-with-ext-js.jade"
       },
       "attrs": [],
       "attributeBlocks": [],

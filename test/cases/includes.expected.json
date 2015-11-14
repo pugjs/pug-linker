@@ -24,7 +24,9 @@
                       "line": 3,
                       "filename": "auxiliary/mixins.jade"
                     }
-                  ]
+                  ],
+                  "line": 3,
+                  "filename": "auxiliary/mixins.jade"
                 },
                 "attrs": [],
                 "attributeBlocks": [],
@@ -48,6 +50,7 @@
     {
       "type": "Mixin",
       "name": "foo",
+      "args": null,
       "block": null,
       "call": true,
       "attrs": [],
@@ -78,26 +81,18 @@
               "type": "Block",
               "nodes": [
                 {
-                  "type": "Filter",
-                  "name": "verbatim",
-                  "block": {
-                    "type": "Block",
-                    "nodes": [
-                      {
-                        "type": "Text",
-                        "val": "var STRING_SUBSTITUTIONS = {    // table of character substitutions\n  '\\t': '\\\\t',\n  '\\r': '\\\\r',\n  '\\n': '\\\\n',\n  '\"' : '\\\\\"',\n  '\\\\': '\\\\\\\\'\n};"
-                      }
-                    ]
-                  },
-                  "attrs": []
+                  "type": "Text",
+                  "val": "var STRING_SUBSTITUTIONS = {    // table of character substitutions\n  '\\t': '\\\\t',\n  '\\r': '\\\\r',\n  '\\n': '\\\\n',\n  '\"' : '\\\\\"',\n  '\\\\': '\\\\\\\\'\n};"
                 }
-              ]
+              ],
+              "line": 9,
+              "filename": "includes.jade"
             },
             "attrs": [
               {
                 "name": "type",
                 "val": "\"text/javascript\"",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
@@ -105,7 +100,9 @@
             "line": 9,
             "filename": "includes.jade"
           }
-        ]
+        ],
+        "line": 6,
+        "filename": "includes.jade"
       },
       "attrs": [],
       "attributeBlocks": [],

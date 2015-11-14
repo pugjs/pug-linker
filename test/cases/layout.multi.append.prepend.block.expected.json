@@ -17,18 +17,20 @@
                 "line": 13,
                 "filename": "layout.multi.append.prepend.block.jade"
               }
-            ]
+            ],
+            "line": 13,
+            "filename": "layout.multi.append.prepend.block.jade"
           },
           "attrs": [
             {
               "name": "class",
               "val": "'last'",
-              "escaped": false
+              "mustEscape": false
             },
             {
               "name": "class",
               "val": "'prepend'",
-              "escaped": false
+              "mustEscape": false
             }
           ],
           "attributeBlocks": [],
@@ -49,18 +51,20 @@
                 "line": 7,
                 "filename": "layout.multi.append.prepend.block.jade"
               }
-            ]
+            ],
+            "line": 7,
+            "filename": "layout.multi.append.prepend.block.jade"
           },
           "attrs": [
             {
               "name": "class",
               "val": "'first'",
-              "escaped": false
+              "mustEscape": false
             },
             {
               "name": "class",
               "val": "'prepend'",
-              "escaped": false
+              "mustEscape": false
             }
           ],
           "attributeBlocks": [],
@@ -71,6 +75,7 @@
         {
           "type": "Tag",
           "name": "div",
+          "selfClosing": false,
           "block": {
             "type": "Block",
             "nodes": [
@@ -80,13 +85,15 @@
                 "line": 5,
                 "filename": "../fixtures/multi-append-prepend-block/redefine.jade"
               }
-            ]
+            ],
+            "line": 4,
+            "filename": "../fixtures/multi-append-prepend-block/redefine.jade"
           },
           "attrs": [
             {
               "name": "class",
               "val": "'content'",
-              "escaped": false
+              "mustEscape": false
             }
           ],
           "attributeBlocks": [],
@@ -107,18 +114,20 @@
                 "line": 4,
                 "filename": "layout.multi.append.prepend.block.jade"
               }
-            ]
+            ],
+            "line": 4,
+            "filename": "layout.multi.append.prepend.block.jade"
           },
           "attrs": [
             {
               "name": "class",
               "val": "'first'",
-              "escaped": false
+              "mustEscape": false
             },
             {
               "name": "class",
               "val": "'append'",
-              "escaped": false
+              "mustEscape": false
             }
           ],
           "attributeBlocks": [],
@@ -139,18 +148,20 @@
                 "line": 10,
                 "filename": "layout.multi.append.prepend.block.jade"
               }
-            ]
+            ],
+            "line": 10,
+            "filename": "layout.multi.append.prepend.block.jade"
           },
           "attrs": [
             {
               "name": "class",
               "val": "'last'",
-              "escaped": false
+              "mustEscape": false
             },
             {
               "name": "class",
               "val": "'append'",
-              "escaped": false
+              "mustEscape": false
             }
           ],
           "attributeBlocks": [],
@@ -173,13 +184,15 @@
           "selfClosing": false,
           "block": {
             "type": "Block",
-            "nodes": []
+            "nodes": [],
+            "line": 19,
+            "filename": "layout.multi.append.prepend.block.jade"
           },
           "attrs": [
             {
               "name": "src",
               "val": "'foo.js'",
-              "escaped": true
+              "mustEscape": true
             }
           ],
           "attributeBlocks": [],
@@ -193,13 +206,15 @@
           "selfClosing": false,
           "block": {
             "type": "Block",
-            "nodes": []
+            "nodes": [],
+            "line": 5,
+            "filename": "../fixtures/multi-append-prepend-block/root.jade"
           },
           "attrs": [
             {
               "name": "src",
               "val": "'/app.js'",
-              "escaped": true
+              "mustEscape": true
             }
           ],
           "attributeBlocks": [],
@@ -213,13 +228,15 @@
           "selfClosing": false,
           "block": {
             "type": "Block",
-            "nodes": []
+            "nodes": [],
+            "line": 16,
+            "filename": "layout.multi.append.prepend.block.jade"
           },
           "attrs": [
             {
               "name": "src",
               "val": "'jquery.js'",
-              "escaped": true
+              "mustEscape": true
             }
           ],
           "attributeBlocks": [],
@@ -243,6 +260,7 @@
         {
           "type": "Tag",
           "name": "div",
+          "selfClosing": false,
           "block": {
             "type": "Block",
             "nodes": [
@@ -252,13 +270,15 @@
                 "line": 5,
                 "filename": "../fixtures/multi-append-prepend-block/redefine.jade"
               }
-            ]
+            ],
+            "line": 4,
+            "filename": "../fixtures/multi-append-prepend-block/redefine.jade"
           },
           "attrs": [
             {
               "name": "class",
               "val": "'content'",
-              "escaped": false
+              "mustEscape": false
             }
           ],
           "attributeBlocks": [],
@@ -287,18 +307,20 @@
                   "line": 13,
                   "filename": "layout.multi.append.prepend.block.jade"
                 }
-              ]
+              ],
+              "line": 13,
+              "filename": "layout.multi.append.prepend.block.jade"
             },
             "attrs": [
               {
                 "name": "class",
                 "val": "'last'",
-                "escaped": false
+                "mustEscape": false
               },
               {
                 "name": "class",
                 "val": "'prepend'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -319,18 +341,20 @@
                   "line": 7,
                   "filename": "layout.multi.append.prepend.block.jade"
                 }
-              ]
+              ],
+              "line": 7,
+              "filename": "layout.multi.append.prepend.block.jade"
             },
             "attrs": [
               {
                 "name": "class",
                 "val": "'first'",
-                "escaped": false
+                "mustEscape": false
               },
               {
                 "name": "class",
                 "val": "'prepend'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -341,6 +365,7 @@
           {
             "type": "Tag",
             "name": "div",
+            "selfClosing": false,
             "block": {
               "type": "Block",
               "nodes": [
@@ -350,13 +375,15 @@
                   "line": 5,
                   "filename": "../fixtures/multi-append-prepend-block/redefine.jade"
                 }
-              ]
+              ],
+              "line": 4,
+              "filename": "../fixtures/multi-append-prepend-block/redefine.jade"
             },
             "attrs": [
               {
                 "name": "class",
                 "val": "'content'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -377,18 +404,20 @@
                   "line": 4,
                   "filename": "layout.multi.append.prepend.block.jade"
                 }
-              ]
+              ],
+              "line": 4,
+              "filename": "layout.multi.append.prepend.block.jade"
             },
             "attrs": [
               {
                 "name": "class",
                 "val": "'first'",
-                "escaped": false
+                "mustEscape": false
               },
               {
                 "name": "class",
                 "val": "'append'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -409,18 +438,20 @@
                   "line": 10,
                   "filename": "layout.multi.append.prepend.block.jade"
                 }
-              ]
+              ],
+              "line": 10,
+              "filename": "layout.multi.append.prepend.block.jade"
             },
             "attrs": [
               {
                 "name": "class",
                 "val": "'last'",
-                "escaped": false
+                "mustEscape": false
               },
               {
                 "name": "class",
                 "val": "'append'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -444,13 +475,15 @@
           "selfClosing": false,
           "block": {
             "type": "Block",
-            "nodes": []
+            "nodes": [],
+            "line": 19,
+            "filename": "layout.multi.append.prepend.block.jade"
           },
           "attrs": [
             {
               "name": "src",
               "val": "'foo.js'",
-              "escaped": true
+              "mustEscape": true
             }
           ],
           "attributeBlocks": [],
@@ -464,13 +497,15 @@
           "selfClosing": false,
           "block": {
             "type": "Block",
-            "nodes": []
+            "nodes": [],
+            "line": 5,
+            "filename": "../fixtures/multi-append-prepend-block/root.jade"
           },
           "attrs": [
             {
               "name": "src",
               "val": "'/app.js'",
-              "escaped": true
+              "mustEscape": true
             }
           ],
           "attributeBlocks": [],
@@ -484,13 +519,15 @@
           "selfClosing": false,
           "block": {
             "type": "Block",
-            "nodes": []
+            "nodes": [],
+            "line": 16,
+            "filename": "layout.multi.append.prepend.block.jade"
           },
           "attrs": [
             {
               "name": "src",
               "val": "'jquery.js'",
-              "escaped": true
+              "mustEscape": true
             }
           ],
           "attributeBlocks": [],

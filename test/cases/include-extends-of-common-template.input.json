@@ -5,11 +5,11 @@
       "type": "Include",
       "file": {
         "type": "FileReference",
-        "path": "auxiliary/extends-empty-block-1",
         "line": 1,
         "filename": "include-extends-of-common-template.jade",
+        "path": "auxiliary/extends-empty-block-1.jade",
         "fullPath": "auxiliary/extends-empty-block-1.jade",
-        "str": "extends empty-block\n\nblock test\n    div test1\n\n",
+        "str": "extends empty-block.jade\n\nblock test\n    div test1\n\n",
         "ast": {
           "type": "Block",
           "nodes": [
@@ -17,7 +17,7 @@
               "type": "Extends",
               "file": {
                 "type": "FileReference",
-                "path": "empty-block",
+                "path": "empty-block.jade",
                 "line": 1,
                 "filename": "auxiliary/extends-empty-block-1.jade",
                 "fullPath": "auxiliary/empty-block.jade",
@@ -57,7 +57,9 @@
                         "line": 4,
                         "filename": "auxiliary/extends-empty-block-1.jade"
                       }
-                    ]
+                    ],
+                    "line": 4,
+                    "filename": "auxiliary/extends-empty-block-1.jade"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
@@ -76,23 +78,24 @@
           "filename": "auxiliary/extends-empty-block-1.jade"
         }
       },
-      "attrs": [],
+      "line": 1,
+      "filename": "include-extends-of-common-template.jade",
       "block": {
         "type": "Block",
-        "nodes": []
-      },
-      "line": 1,
-      "filename": "include-extends-of-common-template.jade"
+        "nodes": [],
+        "line": 1,
+        "filename": "include-extends-of-common-template.jade"
+      }
     },
     {
       "type": "Include",
       "file": {
         "type": "FileReference",
-        "path": "auxiliary/extends-empty-block-2",
         "line": 2,
         "filename": "include-extends-of-common-template.jade",
+        "path": "auxiliary/extends-empty-block-2.jade",
         "fullPath": "auxiliary/extends-empty-block-2.jade",
-        "str": "extends empty-block\n\nblock test\n    div test2\n\n",
+        "str": "extends empty-block.jade\n\nblock test\n    div test2\n\n",
         "ast": {
           "type": "Block",
           "nodes": [
@@ -100,7 +103,7 @@
               "type": "Extends",
               "file": {
                 "type": "FileReference",
-                "path": "empty-block",
+                "path": "empty-block.jade",
                 "line": 1,
                 "filename": "auxiliary/extends-empty-block-2.jade",
                 "fullPath": "auxiliary/empty-block.jade",
@@ -140,7 +143,9 @@
                         "line": 4,
                         "filename": "auxiliary/extends-empty-block-2.jade"
                       }
-                    ]
+                    ],
+                    "line": 4,
+                    "filename": "auxiliary/extends-empty-block-2.jade"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
@@ -159,13 +164,14 @@
           "filename": "auxiliary/extends-empty-block-2.jade"
         }
       },
-      "attrs": [],
+      "line": 2,
+      "filename": "include-extends-of-common-template.jade",
       "block": {
         "type": "Block",
-        "nodes": []
-      },
-      "line": 2,
-      "filename": "include-extends-of-common-template.jade"
+        "nodes": [],
+        "line": 2,
+        "filename": "include-extends-of-common-template.jade"
+      }
     }
   ],
   "line": 0,

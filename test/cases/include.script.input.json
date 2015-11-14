@@ -12,9 +12,9 @@
             "type": "Include",
             "file": {
               "type": "FileReference",
-              "path": "auxiliary/pet",
               "line": 2,
               "filename": "include.script.jade",
+              "path": "auxiliary/pet.jade",
               "fullPath": "auxiliary/pet.jade",
               "str": ".pet\n  h1 {{name}}\n  p {{name}} is a {{species}} that is {{age}} old",
               "ast": {
@@ -23,6 +23,7 @@
                   {
                     "type": "Tag",
                     "name": "div",
+                    "selfClosing": false,
                     "block": {
                       "type": "Block",
                       "nodes": [
@@ -39,7 +40,9 @@
                                 "line": 2,
                                 "filename": "auxiliary/pet.jade"
                               }
-                            ]
+                            ],
+                            "line": 2,
+                            "filename": "auxiliary/pet.jade"
                           },
                           "attrs": [],
                           "attributeBlocks": [],
@@ -60,7 +63,9 @@
                                 "line": 3,
                                 "filename": "auxiliary/pet.jade"
                               }
-                            ]
+                            ],
+                            "line": 3,
+                            "filename": "auxiliary/pet.jade"
                           },
                           "attrs": [],
                           "attributeBlocks": [],
@@ -68,13 +73,15 @@
                           "line": 3,
                           "filename": "auxiliary/pet.jade"
                         }
-                      ]
+                      ],
+                      "line": 1,
+                      "filename": "auxiliary/pet.jade"
                     },
                     "attrs": [
                       {
                         "name": "class",
                         "val": "'pet'",
-                        "escaped": false
+                        "mustEscape": false
                       }
                     ],
                     "attributeBlocks": [],
@@ -87,26 +94,29 @@
                 "filename": "auxiliary/pet.jade"
               }
             },
-            "attrs": [],
+            "line": 2,
+            "filename": "include.script.jade",
             "block": {
               "type": "Block",
-              "nodes": []
-            },
-            "line": 2,
-            "filename": "include.script.jade"
+              "nodes": [],
+              "line": 2,
+              "filename": "include.script.jade"
+            }
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "include.script.jade"
       },
       "attrs": [
         {
           "name": "id",
           "val": "'pet-template'",
-          "escaped": false
+          "mustEscape": false
         },
         {
           "name": "type",
           "val": "'text/x-template'",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],

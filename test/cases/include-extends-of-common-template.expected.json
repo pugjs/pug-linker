@@ -20,7 +20,9 @@
                     "line": 4,
                     "filename": "auxiliary/extends-empty-block-1.jade"
                   }
-                ]
+                ],
+                "line": 4,
+                "filename": "auxiliary/extends-empty-block-1.jade"
               },
               "attrs": [],
               "attributeBlocks": [],
@@ -54,7 +56,9 @@
                     "line": 4,
                     "filename": "auxiliary/extends-empty-block-1.jade"
                   }
-                ]
+                ],
+                "line": 4,
+                "filename": "auxiliary/extends-empty-block-1.jade"
               },
               "attrs": [],
               "attributeBlocks": [],
@@ -83,7 +87,9 @@
                       "line": 4,
                       "filename": "auxiliary/extends-empty-block-1.jade"
                     }
-                  ]
+                  ],
+                  "line": 4,
+                  "filename": "auxiliary/extends-empty-block-1.jade"
                 },
                 "attrs": [],
                 "attributeBlocks": [],
@@ -119,7 +125,9 @@
                     "line": 4,
                     "filename": "auxiliary/extends-empty-block-2.jade"
                   }
-                ]
+                ],
+                "line": 4,
+                "filename": "auxiliary/extends-empty-block-2.jade"
               },
               "attrs": [],
               "attributeBlocks": [],
@@ -153,7 +161,9 @@
                     "line": 4,
                     "filename": "auxiliary/extends-empty-block-2.jade"
                   }
-                ]
+                ],
+                "line": 4,
+                "filename": "auxiliary/extends-empty-block-2.jade"
               },
               "attrs": [],
               "attributeBlocks": [],
@@ -182,7 +192,9 @@
                       "line": 4,
                       "filename": "auxiliary/extends-empty-block-2.jade"
                     }
-                  ]
+                  ],
+                  "line": 4,
+                  "filename": "auxiliary/extends-empty-block-2.jade"
                 },
                 "attrs": [],
                 "attributeBlocks": [],
@@ -219,7 +231,9 @@
                 "line": 4,
                 "filename": "auxiliary/extends-empty-block-2.jade"
               }
-            ]
+            ],
+            "line": 4,
+            "filename": "auxiliary/extends-empty-block-2.jade"
           },
           "attrs": [],
           "attributeBlocks": [],

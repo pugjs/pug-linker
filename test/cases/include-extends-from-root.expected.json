@@ -31,7 +31,9 @@
                             "line": 3,
                             "filename": "auxiliary/layout.jade"
                           }
-                        ]
+                        ],
+                        "line": 3,
+                        "filename": "auxiliary/layout.jade"
                       },
                       "attrs": [],
                       "attributeBlocks": [],
@@ -47,7 +49,9 @@
                       "name": "head",
                       "mode": "replace"
                     }
-                  ]
+                  ],
+                  "line": 2,
+                  "filename": "auxiliary/layout.jade"
                 },
                 "attrs": [],
                 "attributeBlocks": [],
@@ -81,7 +85,9 @@
                                     "line": 1,
                                     "filename": "auxiliary/include-from-root.jade"
                                   }
-                                ]
+                                ],
+                                "line": 1,
+                                "filename": "auxiliary/include-from-root.jade"
                               },
                               "attrs": [],
                               "attributeBlocks": [],
@@ -100,7 +106,9 @@
                       "name": "content",
                       "mode": "replace"
                     }
-                  ]
+                  ],
+                  "line": 5,
+                  "filename": "auxiliary/layout.jade"
                 },
                 "attrs": [],
                 "attributeBlocks": [],
@@ -108,7 +116,9 @@
                 "line": 5,
                 "filename": "auxiliary/layout.jade"
               }
-            ]
+            ],
+            "line": 1,
+            "filename": "auxiliary/layout.jade"
           },
           "attrs": [],
           "attributeBlocks": [],
@@ -147,7 +157,9 @@
                         "line": 1,
                         "filename": "auxiliary/include-from-root.jade"
                       }
-                    ]
+                    ],
+                    "line": 1,
+                    "filename": "auxiliary/include-from-root.jade"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
@@ -184,7 +196,9 @@
                           "line": 1,
                           "filename": "auxiliary/include-from-root.jade"
                         }
-                      ]
+                      ],
+                      "line": 1,
+                      "filename": "auxiliary/include-from-root.jade"
                     },
                     "attrs": [],
                     "attributeBlocks": [],
@@ -237,7 +251,9 @@
                     "line": 1,
                     "filename": "auxiliary/include-from-root.jade"
                   }
-                ]
+                ],
+                "line": 1,
+                "filename": "auxiliary/include-from-root.jade"
               },
               "attrs": [],
               "attributeBlocks": [],

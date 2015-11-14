@@ -8,11 +8,9 @@
       "filename": "include-only-text-body.jade"
     },
     {
-      "type": "Block",
-      "nodes": [],
+      "type": "YieldBlock",
       "line": 2,
-      "filename": "include-only-text-body.jade",
-      "yield": true
+      "filename": "include-only-text-body.jade"
     },
     {
       "type": "Text",

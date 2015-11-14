@@ -33,6 +33,8 @@
                           },
                           {
                             "type": "Block",
+                            "line": 2,
+                            "filename": "include-only-text-body.jade",
                             "nodes": [
                               {
                                 "type": "Block",
@@ -50,7 +52,9 @@
                                           "line": 5,
                                           "filename": "include-only-text.jade"
                                         }
-                                      ]
+                                      ],
+                                      "line": 5,
+                                      "filename": "include-only-text.jade"
                                     },
                                     "attrs": [],
                                     "attributeBlocks": [],
@@ -62,10 +66,7 @@
                                 "line": 5,
                                 "filename": "include-only-text.jade"
                               }
-                            ],
-                            "line": 2,
-                            "filename": "include-only-text-body.jade",
-                            "yield": true
+                            ]
                           },
                           {
                             "type": "Text",
@@ -78,7 +79,9 @@
                         "filename": "include-only-text-body.jade",
                         "declaredBlocks": {}
                       }
-                    ]
+                    ],
+                    "line": 3,
+                    "filename": "include-only-text.jade"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
@@ -86,7 +89,9 @@
                   "line": 3,
                   "filename": "include-only-text.jade"
                 }
-              ]
+              ],
+              "line": 2,
+              "filename": "include-only-text.jade"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -94,7 +99,9 @@
             "line": 2,
             "filename": "include-only-text.jade"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "include-only-text.jade"
       },
       "attrs": [],
       "attributeBlocks": [],
