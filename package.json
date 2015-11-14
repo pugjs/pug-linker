@@ -1,18 +1,20 @@
 {
   "name": "jade-linker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Link multiple jade ASTs together using include/extends",
-  "keywords": [],
+  "keywords": [
+    "jade"
+  ],
   "dependencies": {
     "jade-error": "^1.0.0",
-    "jade-walk": "0.0.2"
+    "jade-walk": "^0.0.3"
   },
   "devDependencies": {
     "istanbul": "^0.3.17",
     "jade": "^1.11.0",
-    "jade-lexer": "0.0.8",
-    "jade-load": "0.0.3",
-    "jade-parser": "0.0.8",
+    "jade-lexer": "0.0.9",
+    "jade-load": "0.0.4",
+    "jade-parser": "0.0.9",
     "testit": "^2.0.2"
   },
   "scripts": {
