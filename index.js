@@ -23,7 +23,7 @@ function link(ast) {
   if (extendsNode) {
     var mixins = [];
     var expectedBlocks = [];
-    function addNode(node) {
+    ast.nodes.forEach(function addNode(node) {
       if (node.type === 'NamedBlock') {
         expectedBlocks.push(node.name);
       } else if (node.type === 'Block') {
@@ -33,8 +33,7 @@ function link(ast) {
       } else {
         error('UNEXPECTED_NODES_IN_EXTENDING_ROOT', 'Only named blocks and mixins can appear at the top level of an extending template', node);
       }
-    }
-    ast.nodes.forEach(addNode);
+    });
     var parent = link(extendsNode.file.ast);
     extend(parent.declaredBlocks, ast);
     walk(parent, function (node) {
