@@ -15,11 +15,11 @@
                 "type": "Text",
                 "val": "Last prepend must appear at top",
                 "line": 13,
-                "filename": "layout.multi.append.prepend.block.jade"
+                "filename": "layout.multi.append.prepend.block.pug"
               }
             ],
             "line": 13,
-            "filename": "layout.multi.append.prepend.block.jade"
+            "filename": "layout.multi.append.prepend.block.pug"
           },
           "attrs": [
             {
@@ -36,7 +36,7 @@
           "attributeBlocks": [],
           "isInline": false,
           "line": 13,
-          "filename": "layout.multi.append.prepend.block.jade"
+          "filename": "layout.multi.append.prepend.block.pug"
         },
         {
           "type": "Tag",
@@ -49,11 +49,11 @@
                 "type": "Text",
                 "val": "Something prepended to content",
                 "line": 7,
-                "filename": "layout.multi.append.prepend.block.jade"
+                "filename": "layout.multi.append.prepend.block.pug"
               }
             ],
             "line": 7,
-            "filename": "layout.multi.append.prepend.block.jade"
+            "filename": "layout.multi.append.prepend.block.pug"
           },
           "attrs": [
             {
@@ -70,7 +70,7 @@
           "attributeBlocks": [],
           "isInline": false,
           "line": 7,
-          "filename": "layout.multi.append.prepend.block.jade"
+          "filename": "layout.multi.append.prepend.block.pug"
         },
         {
           "type": "Tag",
@@ -83,11 +83,11 @@
                 "type": "Text",
                 "val": "Defined content",
                 "line": 5,
-                "filename": "../fixtures/multi-append-prepend-block/redefine.jade"
+                "filename": "auxiliary/multi-append-prepend-block/redefine.pug"
               }
             ],
             "line": 4,
-            "filename": "../fixtures/multi-append-prepend-block/redefine.jade"
+            "filename": "auxiliary/multi-append-prepend-block/redefine.pug"
           },
           "attrs": [
             {
@@ -99,7 +99,7 @@
           "attributeBlocks": [],
           "isInline": false,
           "line": 4,
-          "filename": "../fixtures/multi-append-prepend-block/redefine.jade"
+          "filename": "auxiliary/multi-append-prepend-block/redefine.pug"
         },
         {
           "type": "Tag",
@@ -112,11 +112,11 @@
                 "type": "Text",
                 "val": "Something appended to content",
                 "line": 4,
-                "filename": "layout.multi.append.prepend.block.jade"
+                "filename": "layout.multi.append.prepend.block.pug"
               }
             ],
             "line": 4,
-            "filename": "layout.multi.append.prepend.block.jade"
+            "filename": "layout.multi.append.prepend.block.pug"
           },
           "attrs": [
             {
@@ -133,7 +133,7 @@
           "attributeBlocks": [],
           "isInline": false,
           "line": 4,
-          "filename": "layout.multi.append.prepend.block.jade"
+          "filename": "layout.multi.append.prepend.block.pug"
         },
         {
           "type": "Tag",
@@ -146,11 +146,11 @@
                 "type": "Text",
                 "val": "Last append must be most last",
                 "line": 10,
-                "filename": "layout.multi.append.prepend.block.jade"
+                "filename": "layout.multi.append.prepend.block.pug"
               }
             ],
             "line": 10,
-            "filename": "layout.multi.append.prepend.block.jade"
+            "filename": "layout.multi.append.prepend.block.pug"
           },
           "attrs": [
             {
@@ -167,11 +167,11 @@
           "attributeBlocks": [],
           "isInline": false,
           "line": 10,
-          "filename": "layout.multi.append.prepend.block.jade"
+          "filename": "layout.multi.append.prepend.block.pug"
         }
       ],
       "line": 1,
-      "filename": "../fixtures/multi-append-prepend-block/root.jade",
+      "filename": "auxiliary/multi-append-prepend-block/root.pug",
       "name": "content",
       "mode": "replace"
     },
@@ -186,7 +186,7 @@
             "type": "Block",
             "nodes": [],
             "line": 19,
-            "filename": "layout.multi.append.prepend.block.jade"
+            "filename": "layout.multi.append.prepend.block.pug"
           },
           "attrs": [
             {
@@ -198,7 +198,7 @@
           "attributeBlocks": [],
           "isInline": false,
           "line": 19,
-          "filename": "layout.multi.append.prepend.block.jade"
+          "filename": "layout.multi.append.prepend.block.pug"
         },
         {
           "type": "Tag",
@@ -208,7 +208,7 @@
             "type": "Block",
             "nodes": [],
             "line": 5,
-            "filename": "../fixtures/multi-append-prepend-block/root.jade"
+            "filename": "auxiliary/multi-append-prepend-block/root.pug"
           },
           "attrs": [
             {
@@ -220,7 +220,7 @@
           "attributeBlocks": [],
           "isInline": false,
           "line": 5,
-          "filename": "../fixtures/multi-append-prepend-block/root.jade"
+          "filename": "auxiliary/multi-append-prepend-block/root.pug"
         },
         {
           "type": "Tag",
@@ -230,7 +230,7 @@
             "type": "Block",
             "nodes": [],
             "line": 16,
-            "filename": "layout.multi.append.prepend.block.jade"
+            "filename": "layout.multi.append.prepend.block.pug"
           },
           "attrs": [
             {
@@ -242,17 +242,17 @@
           "attributeBlocks": [],
           "isInline": false,
           "line": 16,
-          "filename": "layout.multi.append.prepend.block.jade"
+          "filename": "layout.multi.append.prepend.block.pug"
         }
       ],
       "line": 4,
-      "filename": "../fixtures/multi-append-prepend-block/root.jade",
+      "filename": "auxiliary/multi-append-prepend-block/root.pug",
       "name": "head",
       "mode": "replace"
     }
   ],
   "line": 0,
-  "filename": "../fixtures/multi-append-prepend-block/root.jade",
+  "filename": "auxiliary/multi-append-prepend-block/root.pug",
   "declaredBlocks": {
     "content": {
       "type": "NamedBlock",
@@ -268,11 +268,11 @@
                 "type": "Text",
                 "val": "Defined content",
                 "line": 5,
-                "filename": "../fixtures/multi-append-prepend-block/redefine.jade"
+                "filename": "auxiliary/multi-append-prepend-block/redefine.pug"
               }
             ],
             "line": 4,
-            "filename": "../fixtures/multi-append-prepend-block/redefine.jade"
+            "filename": "auxiliary/multi-append-prepend-block/redefine.pug"
           },
           "attrs": [
             {
@@ -284,11 +284,11 @@
           "attributeBlocks": [],
           "isInline": false,
           "line": 4,
-          "filename": "../fixtures/multi-append-prepend-block/redefine.jade"
+          "filename": "auxiliary/multi-append-prepend-block/redefine.pug"
         }
       ],
       "line": 3,
-      "filename": "../fixtures/multi-append-prepend-block/redefine.jade",
+      "filename": "auxiliary/multi-append-prepend-block/redefine.pug",
       "name": "content",
       "mode": "replace",
       "parent": {
@@ -305,11 +305,11 @@
                   "type": "Text",
                   "val": "Last prepend must appear at top",
                   "line": 13,
-                  "filename": "layout.multi.append.prepend.block.jade"
+                  "filename": "layout.multi.append.prepend.block.pug"
                 }
               ],
               "line": 13,
-              "filename": "layout.multi.append.prepend.block.jade"
+              "filename": "layout.multi.append.prepend.block.pug"
             },
             "attrs": [
               {
@@ -326,7 +326,7 @@
             "attributeBlocks": [],
             "isInline": false,
             "line": 13,
-            "filename": "layout.multi.append.prepend.block.jade"
+            "filename": "layout.multi.append.prepend.block.pug"
           },
           {
             "type": "Tag",
@@ -339,11 +339,11 @@
                   "type": "Text",
                   "val": "Something prepended to content",
                   "line": 7,
-                  "filename": "layout.multi.append.prepend.block.jade"
+                  "filename": "layout.multi.append.prepend.block.pug"
                 }
               ],
               "line": 7,
-              "filename": "layout.multi.append.prepend.block.jade"
+              "filename": "layout.multi.append.prepend.block.pug"
             },
             "attrs": [
               {
@@ -360,7 +360,7 @@
             "attributeBlocks": [],
             "isInline": false,
             "line": 7,
-            "filename": "layout.multi.append.prepend.block.jade"
+            "filename": "layout.multi.append.prepend.block.pug"
           },
           {
             "type": "Tag",
@@ -373,11 +373,11 @@
                   "type": "Text",
                   "val": "Defined content",
                   "line": 5,
-                  "filename": "../fixtures/multi-append-prepend-block/redefine.jade"
+                  "filename": "auxiliary/multi-append-prepend-block/redefine.pug"
                 }
               ],
               "line": 4,
-              "filename": "../fixtures/multi-append-prepend-block/redefine.jade"
+              "filename": "auxiliary/multi-append-prepend-block/redefine.pug"
             },
             "attrs": [
               {
@@ -389,7 +389,7 @@
             "attributeBlocks": [],
             "isInline": false,
             "line": 4,
-            "filename": "../fixtures/multi-append-prepend-block/redefine.jade"
+            "filename": "auxiliary/multi-append-prepend-block/redefine.pug"
           },
           {
             "type": "Tag",
@@ -402,11 +402,11 @@
                   "type": "Text",
                   "val": "Something appended to content",
                   "line": 4,
-                  "filename": "layout.multi.append.prepend.block.jade"
+                  "filename": "layout.multi.append.prepend.block.pug"
                 }
               ],
               "line": 4,
-              "filename": "layout.multi.append.prepend.block.jade"
+              "filename": "layout.multi.append.prepend.block.pug"
             },
             "attrs": [
               {
@@ -423,7 +423,7 @@
             "attributeBlocks": [],
             "isInline": false,
             "line": 4,
-            "filename": "layout.multi.append.prepend.block.jade"
+            "filename": "layout.multi.append.prepend.block.pug"
           },
           {
             "type": "Tag",
@@ -436,11 +436,11 @@
                   "type": "Text",
                   "val": "Last append must be most last",
                   "line": 10,
-                  "filename": "layout.multi.append.prepend.block.jade"
+                  "filename": "layout.multi.append.prepend.block.pug"
                 }
               ],
               "line": 10,
-              "filename": "layout.multi.append.prepend.block.jade"
+              "filename": "layout.multi.append.prepend.block.pug"
             },
             "attrs": [
               {
@@ -457,11 +457,11 @@
             "attributeBlocks": [],
             "isInline": false,
             "line": 10,
-            "filename": "layout.multi.append.prepend.block.jade"
+            "filename": "layout.multi.append.prepend.block.pug"
           }
         ],
         "line": 1,
-        "filename": "../fixtures/multi-append-prepend-block/root.jade",
+        "filename": "auxiliary/multi-append-prepend-block/root.pug",
         "name": "content",
         "mode": "replace"
       }
@@ -477,7 +477,7 @@
             "type": "Block",
             "nodes": [],
             "line": 19,
-            "filename": "layout.multi.append.prepend.block.jade"
+            "filename": "layout.multi.append.prepend.block.pug"
           },
           "attrs": [
             {
@@ -489,7 +489,7 @@
           "attributeBlocks": [],
           "isInline": false,
           "line": 19,
-          "filename": "layout.multi.append.prepend.block.jade"
+          "filename": "layout.multi.append.prepend.block.pug"
         },
         {
           "type": "Tag",
@@ -499,7 +499,7 @@
             "type": "Block",
             "nodes": [],
             "line": 5,
-            "filename": "../fixtures/multi-append-prepend-block/root.jade"
+            "filename": "auxiliary/multi-append-prepend-block/root.pug"
           },
           "attrs": [
             {
@@ -511,7 +511,7 @@
           "attributeBlocks": [],
           "isInline": false,
           "line": 5,
-          "filename": "../fixtures/multi-append-prepend-block/root.jade"
+          "filename": "auxiliary/multi-append-prepend-block/root.pug"
         },
         {
           "type": "Tag",
@@ -521,7 +521,7 @@
             "type": "Block",
             "nodes": [],
             "line": 16,
-            "filename": "layout.multi.append.prepend.block.jade"
+            "filename": "layout.multi.append.prepend.block.pug"
           },
           "attrs": [
             {
@@ -533,11 +533,11 @@
           "attributeBlocks": [],
           "isInline": false,
           "line": 16,
-          "filename": "layout.multi.append.prepend.block.jade"
+          "filename": "layout.multi.append.prepend.block.pug"
         }
       ],
       "line": 4,
-      "filename": "../fixtures/multi-append-prepend-block/root.jade",
+      "filename": "auxiliary/multi-append-prepend-block/root.pug",
       "name": "head",
       "mode": "replace"
     }

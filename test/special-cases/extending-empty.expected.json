@@ -2,6 +2,6 @@
   "type": "Block",
   "nodes": [],
   "line": 0,
-  "filename": "../fixtures/empty.jade",
+  "filename": "../fixtures/empty.pug",
   "declaredBlocks": {}
 }

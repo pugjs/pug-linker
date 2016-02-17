@@ -13,26 +13,26 @@
             "file": {
               "type": "FileReference",
               "line": 2,
-              "filename": "include-filter-stylus.jade",
+              "filename": "include-filter-stylus.pug",
               "path": "some.styl",
               "fullPath": "some.styl",
               "str": "@import \"some-included\"\n"
             },
             "line": 2,
-            "filename": "include-filter-stylus.jade",
+            "filename": "include-filter-stylus.pug",
             "filters": [
               {
                 "type": "IncludeFilter",
                 "name": "stylus",
                 "attrs": [],
                 "line": 2,
-                "filename": "include-filter-stylus.jade"
+                "filename": "include-filter-stylus.pug"
               }
             ]
           }
         ],
         "line": 1,
-        "filename": "include-filter-stylus.jade"
+        "filename": "include-filter-stylus.pug"
       },
       "attrs": [
         {
@@ -44,9 +44,9 @@
       "attributeBlocks": [],
       "isInline": false,
       "line": 1,
-      "filename": "include-filter-stylus.jade"
+      "filename": "include-filter-stylus.pug"
     }
   ],
   "line": 0,
-  "filename": "include-filter-stylus.jade"
+  "filename": "include-filter-stylus.pug"
 }

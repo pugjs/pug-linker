@@ -22,29 +22,29 @@
                       "type": "Text",
                       "val": "bar",
                       "line": 3,
-                      "filename": "auxiliary/mixins.jade"
+                      "filename": "auxiliary/mixins.pug"
                     }
                   ],
                   "line": 3,
-                  "filename": "auxiliary/mixins.jade"
+                  "filename": "auxiliary/mixins.pug"
                 },
                 "attrs": [],
                 "attributeBlocks": [],
                 "isInline": false,
                 "line": 3,
-                "filename": "auxiliary/mixins.jade"
+                "filename": "auxiliary/mixins.pug"
               }
             ],
             "line": 3,
-            "filename": "auxiliary/mixins.jade"
+            "filename": "auxiliary/mixins.pug"
           },
           "call": false,
           "line": 2,
-          "filename": "auxiliary/mixins.jade"
+          "filename": "auxiliary/mixins.pug"
         }
       ],
       "line": 0,
-      "filename": "auxiliary/mixins.jade",
+      "filename": "auxiliary/mixins.pug",
       "declaredBlocks": {}
     },
     {
@@ -56,7 +56,7 @@
       "attrs": [],
       "attributeBlocks": [],
       "line": 4,
-      "filename": "includes.jade"
+      "filename": "includes.pug"
     },
     {
       "type": "Tag",
@@ -86,7 +86,7 @@
                 }
               ],
               "line": 9,
-              "filename": "includes.jade"
+              "filename": "includes.pug"
             },
             "attrs": [
               {
@@ -98,20 +98,20 @@
             "attributeBlocks": [],
             "isInline": false,
             "line": 9,
-            "filename": "includes.jade"
+            "filename": "includes.pug"
           }
         ],
         "line": 6,
-        "filename": "includes.jade"
+        "filename": "includes.pug"
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
       "line": 6,
-      "filename": "includes.jade"
+      "filename": "includes.pug"
     }
   ],
   "line": 0,
-  "filename": "includes.jade",
+  "filename": "includes.pug",
   "declaredBlocks": {}
 }

@@ -22,7 +22,7 @@
                 }
               ],
               "line": 2,
-              "filename": "include-with-text-head.jade"
+              "filename": "include-with-text-head.pug"
             },
             "attrs": [
               {
@@ -34,20 +34,20 @@
             "attributeBlocks": [],
             "isInline": false,
             "line": 2,
-            "filename": "include-with-text-head.jade",
+            "filename": "include-with-text-head.pug",
             "textOnly": true
           }
         ],
         "line": 1,
-        "filename": "include-with-text-head.jade"
+        "filename": "include-with-text-head.pug"
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
       "line": 1,
-      "filename": "include-with-text-head.jade"
+      "filename": "include-with-text-head.pug"
     }
   ],
   "line": 0,
-  "filename": "include-with-text-head.jade"
+  "filename": "include-with-text-head.pug"
 }

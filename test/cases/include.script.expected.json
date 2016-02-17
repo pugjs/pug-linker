@@ -29,17 +29,17 @@
                             "type": "Text",
                             "val": "{{name}}",
                             "line": 2,
-                            "filename": "auxiliary/pet.jade"
+                            "filename": "auxiliary/pet.pug"
                           }
                         ],
                         "line": 2,
-                        "filename": "auxiliary/pet.jade"
+                        "filename": "auxiliary/pet.pug"
                       },
                       "attrs": [],
                       "attributeBlocks": [],
                       "isInline": false,
                       "line": 2,
-                      "filename": "auxiliary/pet.jade"
+                      "filename": "auxiliary/pet.pug"
                     },
                     {
                       "type": "Tag",
@@ -52,21 +52,21 @@
                             "type": "Text",
                             "val": "{{name}} is a {{species}} that is {{age}} old",
                             "line": 3,
-                            "filename": "auxiliary/pet.jade"
+                            "filename": "auxiliary/pet.pug"
                           }
                         ],
                         "line": 3,
-                        "filename": "auxiliary/pet.jade"
+                        "filename": "auxiliary/pet.pug"
                       },
                       "attrs": [],
                       "attributeBlocks": [],
                       "isInline": false,
                       "line": 3,
-                      "filename": "auxiliary/pet.jade"
+                      "filename": "auxiliary/pet.pug"
                     }
                   ],
                   "line": 1,
-                  "filename": "auxiliary/pet.jade"
+                  "filename": "auxiliary/pet.pug"
                 },
                 "attrs": [
                   {
@@ -78,16 +78,16 @@
                 "attributeBlocks": [],
                 "isInline": false,
                 "line": 1,
-                "filename": "auxiliary/pet.jade"
+                "filename": "auxiliary/pet.pug"
               }
             ],
             "line": 0,
-            "filename": "auxiliary/pet.jade",
+            "filename": "auxiliary/pet.pug",
             "declaredBlocks": {}
           }
         ],
         "line": 1,
-        "filename": "include.script.jade"
+        "filename": "include.script.pug"
       },
       "attrs": [
         {
@@ -104,10 +104,10 @@
       "attributeBlocks": [],
       "isInline": false,
       "line": 1,
-      "filename": "include.script.jade"
+      "filename": "include.script.pug"
     }
   ],
   "line": 0,
-  "filename": "include.script.jade",
+  "filename": "include.script.pug",
   "declaredBlocks": {}
 }

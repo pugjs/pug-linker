@@ -1,10 +1,10 @@
 'use strict';
 
 var assert = require('assert');
-var walk = require('jade-walk');
+var walk = require('pug-walk');
 
 function error() {
-  throw require('jade-error').apply(null, arguments);
+  throw require('pug-error').apply(null, arguments);
 }
 
 module.exports = link;

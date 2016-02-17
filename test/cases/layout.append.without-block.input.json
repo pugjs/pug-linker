@@ -5,11 +5,11 @@
       "type": "Extends",
       "file": {
         "type": "FileReference",
-        "path": "../fixtures/append-without-block/app-layout.jade",
+        "path": "auxiliary/append-without-block/app-layout.pug",
         "line": 2,
-        "filename": "layout.append.without-block.jade",
-        "fullPath": "../fixtures/append-without-block/app-layout.jade",
-        "str": "\nextends layout.jade\n\nappend head\n  script(src='app.js')\n",
+        "filename": "layout.append.without-block.pug",
+        "fullPath": "auxiliary/append-without-block/app-layout.pug",
+        "str": "\nextends layout.pug\n\nappend head\n  script(src='app.js')\n",
         "ast": {
           "type": "Block",
           "nodes": [
@@ -17,10 +17,10 @@
               "type": "Extends",
               "file": {
                 "type": "FileReference",
-                "path": "layout.jade",
+                "path": "layout.pug",
                 "line": 2,
-                "filename": "../fixtures/append-without-block/app-layout.jade",
-                "fullPath": "../fixtures/append-without-block/layout.jade",
+                "filename": "auxiliary/append-without-block/app-layout.pug",
+                "fullPath": "auxiliary/append-without-block/layout.pug",
                 "str": "\nhtml\n  block head\n    script(src='vendor/jquery.js')\n    script(src='vendor/caustic.js')\n  body\n    block body",
                 "ast": {
                   "type": "Block",
@@ -43,7 +43,7 @@
                                   "type": "Block",
                                   "nodes": [],
                                   "line": 4,
-                                  "filename": "../fixtures/append-without-block/layout.jade"
+                                  "filename": "auxiliary/append-without-block/layout.pug"
                                 },
                                 "attrs": [
                                   {
@@ -55,7 +55,7 @@
                                 "attributeBlocks": [],
                                 "isInline": false,
                                 "line": 4,
-                                "filename": "../fixtures/append-without-block/layout.jade"
+                                "filename": "auxiliary/append-without-block/layout.pug"
                               },
                               {
                                 "type": "Tag",
@@ -65,7 +65,7 @@
                                   "type": "Block",
                                   "nodes": [],
                                   "line": 5,
-                                  "filename": "../fixtures/append-without-block/layout.jade"
+                                  "filename": "auxiliary/append-without-block/layout.pug"
                                 },
                                 "attrs": [
                                   {
@@ -77,11 +77,11 @@
                                 "attributeBlocks": [],
                                 "isInline": false,
                                 "line": 5,
-                                "filename": "../fixtures/append-without-block/layout.jade"
+                                "filename": "auxiliary/append-without-block/layout.pug"
                               }
                             ],
                             "line": 3,
-                            "filename": "../fixtures/append-without-block/layout.jade",
+                            "filename": "auxiliary/append-without-block/layout.pug",
                             "name": "head",
                             "mode": "replace"
                           },
@@ -96,37 +96,37 @@
                                   "type": "NamedBlock",
                                   "nodes": [],
                                   "line": 7,
-                                  "filename": "../fixtures/append-without-block/layout.jade",
+                                  "filename": "auxiliary/append-without-block/layout.pug",
                                   "name": "body",
                                   "mode": "replace"
                                 }
                               ],
                               "line": 6,
-                              "filename": "../fixtures/append-without-block/layout.jade"
+                              "filename": "auxiliary/append-without-block/layout.pug"
                             },
                             "attrs": [],
                             "attributeBlocks": [],
                             "isInline": false,
                             "line": 6,
-                            "filename": "../fixtures/append-without-block/layout.jade"
+                            "filename": "auxiliary/append-without-block/layout.pug"
                           }
                         ],
                         "line": 2,
-                        "filename": "../fixtures/append-without-block/layout.jade"
+                        "filename": "auxiliary/append-without-block/layout.pug"
                       },
                       "attrs": [],
                       "attributeBlocks": [],
                       "isInline": false,
                       "line": 2,
-                      "filename": "../fixtures/append-without-block/layout.jade"
+                      "filename": "auxiliary/append-without-block/layout.pug"
                     }
                   ],
                   "line": 0,
-                  "filename": "../fixtures/append-without-block/layout.jade"
+                  "filename": "auxiliary/append-without-block/layout.pug"
                 }
               },
               "line": 2,
-              "filename": "../fixtures/append-without-block/app-layout.jade"
+              "filename": "auxiliary/append-without-block/app-layout.pug"
             },
             {
               "type": "NamedBlock",
@@ -139,7 +139,7 @@
                     "type": "Block",
                     "nodes": [],
                     "line": 5,
-                    "filename": "../fixtures/append-without-block/app-layout.jade"
+                    "filename": "auxiliary/append-without-block/app-layout.pug"
                   },
                   "attrs": [
                     {
@@ -151,21 +151,21 @@
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 5,
-                  "filename": "../fixtures/append-without-block/app-layout.jade"
+                  "filename": "auxiliary/append-without-block/app-layout.pug"
                 }
               ],
               "line": 4,
-              "filename": "../fixtures/append-without-block/app-layout.jade",
+              "filename": "auxiliary/append-without-block/app-layout.pug",
               "name": "head",
               "mode": "append"
             }
           ],
           "line": 0,
-          "filename": "../fixtures/append-without-block/app-layout.jade"
+          "filename": "auxiliary/append-without-block/app-layout.pug"
         }
       },
       "line": 2,
-      "filename": "layout.append.without-block.jade"
+      "filename": "layout.append.without-block.pug"
     },
     {
       "type": "NamedBlock",
@@ -178,7 +178,7 @@
             "type": "Block",
             "nodes": [],
             "line": 5,
-            "filename": "layout.append.without-block.jade"
+            "filename": "layout.append.without-block.pug"
           },
           "attrs": [
             {
@@ -190,7 +190,7 @@
           "attributeBlocks": [],
           "isInline": false,
           "line": 5,
-          "filename": "layout.append.without-block.jade"
+          "filename": "layout.append.without-block.pug"
         },
         {
           "type": "Tag",
@@ -200,7 +200,7 @@
             "type": "Block",
             "nodes": [],
             "line": 6,
-            "filename": "layout.append.without-block.jade"
+            "filename": "layout.append.without-block.pug"
           },
           "attrs": [
             {
@@ -212,15 +212,15 @@
           "attributeBlocks": [],
           "isInline": false,
           "line": 6,
-          "filename": "layout.append.without-block.jade"
+          "filename": "layout.append.without-block.pug"
         }
       ],
       "line": 4,
-      "filename": "layout.append.without-block.jade",
+      "filename": "layout.append.without-block.pug",
       "name": "head",
       "mode": "append"
     }
   ],
   "line": 0,
-  "filename": "layout.append.without-block.jade"
+  "filename": "layout.append.without-block.pug"
 }

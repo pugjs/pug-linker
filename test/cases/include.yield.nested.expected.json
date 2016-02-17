@@ -26,23 +26,23 @@
                         "type": "Block",
                         "nodes": [],
                         "line": 3,
-                        "filename": "auxiliary/yield-nested.jade"
+                        "filename": "auxiliary/yield-nested.pug"
                       },
                       "attrs": [],
                       "attributeBlocks": [],
                       "isInline": false,
                       "line": 3,
-                      "filename": "auxiliary/yield-nested.jade"
+                      "filename": "auxiliary/yield-nested.pug"
                     }
                   ],
                   "line": 2,
-                  "filename": "auxiliary/yield-nested.jade"
+                  "filename": "auxiliary/yield-nested.pug"
                 },
                 "attrs": [],
                 "attributeBlocks": [],
                 "isInline": false,
                 "line": 2,
-                "filename": "auxiliary/yield-nested.jade"
+                "filename": "auxiliary/yield-nested.pug"
               },
               {
                 "type": "Tag",
@@ -62,17 +62,17 @@
                             "type": "Text",
                             "val": "Page",
                             "line": 5,
-                            "filename": "auxiliary/yield-nested.jade"
+                            "filename": "auxiliary/yield-nested.pug"
                           }
                         ],
                         "line": 5,
-                        "filename": "auxiliary/yield-nested.jade"
+                        "filename": "auxiliary/yield-nested.pug"
                       },
                       "attrs": [],
                       "attributeBlocks": [],
                       "isInline": false,
                       "line": 5,
-                      "filename": "auxiliary/yield-nested.jade"
+                      "filename": "auxiliary/yield-nested.pug"
                     },
                     {
                       "type": "Tag",
@@ -91,7 +91,7 @@
                                 {
                                   "type": "Block",
                                   "line": 8,
-                                  "filename": "auxiliary/yield-nested.jade",
+                                  "filename": "auxiliary/yield-nested.pug",
                                   "nodes": [
                                     {
                                       "type": "Block",
@@ -107,17 +107,17 @@
                                                 "type": "Text",
                                                 "val": "some content",
                                                 "line": 3,
-                                                "filename": "include.yield.nested.jade"
+                                                "filename": "include.yield.nested.pug"
                                               }
                                             ],
                                             "line": 3,
-                                            "filename": "include.yield.nested.jade"
+                                            "filename": "include.yield.nested.pug"
                                           },
                                           "attrs": [],
                                           "attributeBlocks": [],
                                           "isInline": false,
                                           "line": 3,
-                                          "filename": "include.yield.nested.jade"
+                                          "filename": "include.yield.nested.pug"
                                         },
                                         {
                                           "type": "Tag",
@@ -130,27 +130,27 @@
                                                 "type": "Text",
                                                 "val": "and some more",
                                                 "line": 4,
-                                                "filename": "include.yield.nested.jade"
+                                                "filename": "include.yield.nested.pug"
                                               }
                                             ],
                                             "line": 4,
-                                            "filename": "include.yield.nested.jade"
+                                            "filename": "include.yield.nested.pug"
                                           },
                                           "attrs": [],
                                           "attributeBlocks": [],
                                           "isInline": false,
                                           "line": 4,
-                                          "filename": "include.yield.nested.jade"
+                                          "filename": "include.yield.nested.pug"
                                         }
                                       ],
                                       "line": 3,
-                                      "filename": "include.yield.nested.jade"
+                                      "filename": "include.yield.nested.pug"
                                     }
                                   ]
                                 }
                               ],
                               "line": 7,
-                              "filename": "auxiliary/yield-nested.jade"
+                              "filename": "auxiliary/yield-nested.pug"
                             },
                             "attrs": [
                               {
@@ -162,11 +162,11 @@
                             "attributeBlocks": [],
                             "isInline": false,
                             "line": 7,
-                            "filename": "auxiliary/yield-nested.jade"
+                            "filename": "auxiliary/yield-nested.pug"
                           }
                         ],
                         "line": 6,
-                        "filename": "auxiliary/yield-nested.jade"
+                        "filename": "auxiliary/yield-nested.pug"
                       },
                       "attrs": [
                         {
@@ -178,7 +178,7 @@
                       "attributeBlocks": [],
                       "isInline": false,
                       "line": 6,
-                      "filename": "auxiliary/yield-nested.jade"
+                      "filename": "auxiliary/yield-nested.pug"
                     },
                     {
                       "type": "Tag",
@@ -195,17 +195,17 @@
                               "type": "Block",
                               "nodes": [],
                               "line": 10,
-                              "filename": "auxiliary/yield-nested.jade"
+                              "filename": "auxiliary/yield-nested.pug"
                             },
                             "attrs": [],
                             "attributeBlocks": [],
                             "isInline": false,
                             "line": 10,
-                            "filename": "auxiliary/yield-nested.jade"
+                            "filename": "auxiliary/yield-nested.pug"
                           }
                         ],
                         "line": 9,
-                        "filename": "auxiliary/yield-nested.jade"
+                        "filename": "auxiliary/yield-nested.pug"
                       },
                       "attrs": [
                         {
@@ -217,35 +217,35 @@
                       "attributeBlocks": [],
                       "isInline": false,
                       "line": 9,
-                      "filename": "auxiliary/yield-nested.jade"
+                      "filename": "auxiliary/yield-nested.pug"
                     }
                   ],
                   "line": 4,
-                  "filename": "auxiliary/yield-nested.jade"
+                  "filename": "auxiliary/yield-nested.pug"
                 },
                 "attrs": [],
                 "attributeBlocks": [],
                 "isInline": false,
                 "line": 4,
-                "filename": "auxiliary/yield-nested.jade"
+                "filename": "auxiliary/yield-nested.pug"
               }
             ],
             "line": 1,
-            "filename": "auxiliary/yield-nested.jade"
+            "filename": "auxiliary/yield-nested.pug"
           },
           "attrs": [],
           "attributeBlocks": [],
           "isInline": false,
           "line": 1,
-          "filename": "auxiliary/yield-nested.jade"
+          "filename": "auxiliary/yield-nested.pug"
         }
       ],
       "line": 0,
-      "filename": "auxiliary/yield-nested.jade",
+      "filename": "auxiliary/yield-nested.pug",
       "declaredBlocks": {}
     }
   ],
   "line": 0,
-  "filename": "include.yield.nested.jade",
+  "filename": "include.yield.nested.pug",
   "declaredBlocks": {}
 }

@@ -5,22 +5,22 @@
       "type": "Extends",
       "file": {
         "type": "FileReference",
-        "path": "../fixtures/empty.jade",
+        "path": "../fixtures/empty.pug",
         "line": 1,
-        "filename": "extending-empty.jade",
-        "fullPath": "../fixtures/empty.jade",
+        "filename": "extending-empty.pug",
+        "fullPath": "../fixtures/empty.pug",
         "str": "",
         "ast": {
           "type": "Block",
           "nodes": [],
           "line": 0,
-          "filename": "../fixtures/empty.jade"
+          "filename": "../fixtures/empty.pug"
         }
       },
       "line": 1,
-      "filename": "extending-empty.jade"
+      "filename": "extending-empty.pug"
     }
   ],
   "line": 0,
-  "filename": "extending-empty.jade"
+  "filename": "extending-empty.pug"
 }

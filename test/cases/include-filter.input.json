@@ -20,20 +20,20 @@
                   "file": {
                     "type": "FileReference",
                     "line": 3,
-                    "filename": "include-filter.jade",
+                    "filename": "include-filter.pug",
                     "path": "some.md",
                     "fullPath": "some.md",
                     "str": "Just _some_ markdown **tests**.\n\nWith new line.\n"
                   },
                   "line": 3,
-                  "filename": "include-filter.jade",
+                  "filename": "include-filter.pug",
                   "filters": [
                     {
                       "type": "IncludeFilter",
                       "name": "markdown-it",
                       "attrs": [],
                       "line": 3,
-                      "filename": "include-filter.jade"
+                      "filename": "include-filter.pug"
                     }
                   ]
                 },
@@ -49,13 +49,13 @@
                         "file": {
                           "type": "FileReference",
                           "line": 5,
-                          "filename": "include-filter.jade",
+                          "filename": "include-filter.pug",
                           "path": "include-filter-coffee.coffee",
                           "fullPath": "include-filter-coffee.coffee",
                           "str": "math =\n  square: (value) -> value * value\n"
                         },
                         "line": 5,
-                        "filename": "include-filter.jade",
+                        "filename": "include-filter.pug",
                         "filters": [
                           {
                             "type": "IncludeFilter",
@@ -68,19 +68,19 @@
                               }
                             ],
                             "line": 5,
-                            "filename": "include-filter.jade"
+                            "filename": "include-filter.pug"
                           }
                         ]
                       }
                     ],
                     "line": 4,
-                    "filename": "include-filter.jade"
+                    "filename": "include-filter.pug"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 4,
-                  "filename": "include-filter.jade"
+                  "filename": "include-filter.pug"
                 },
                 {
                   "type": "Tag",
@@ -94,13 +94,13 @@
                         "file": {
                           "type": "FileReference",
                           "line": 7,
-                          "filename": "include-filter.jade",
+                          "filename": "include-filter.pug",
                           "path": "include-filter-coffee.coffee",
                           "fullPath": "include-filter-coffee.coffee",
                           "str": "math =\n  square: (value) -> value * value\n"
                         },
                         "line": 7,
-                        "filename": "include-filter.jade",
+                        "filename": "include-filter.pug",
                         "filters": [
                           {
                             "type": "IncludeFilter",
@@ -113,41 +113,41 @@
                               }
                             ],
                             "line": 7,
-                            "filename": "include-filter.jade"
+                            "filename": "include-filter.pug"
                           }
                         ]
                       }
                     ],
                     "line": 6,
-                    "filename": "include-filter.jade"
+                    "filename": "include-filter.pug"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 6,
-                  "filename": "include-filter.jade"
+                  "filename": "include-filter.pug"
                 }
               ],
               "line": 2,
-              "filename": "include-filter.jade"
+              "filename": "include-filter.pug"
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
             "line": 2,
-            "filename": "include-filter.jade"
+            "filename": "include-filter.pug"
           }
         ],
         "line": 1,
-        "filename": "include-filter.jade"
+        "filename": "include-filter.pug"
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
       "line": 1,
-      "filename": "include-filter.jade"
+      "filename": "include-filter.pug"
     }
   ],
   "line": 0,
-  "filename": "include-filter.jade"
+  "filename": "include-filter.pug"
 }

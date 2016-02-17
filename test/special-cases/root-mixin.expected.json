@@ -19,31 +19,31 @@
                   "type": "Text",
                   "val": "Hello world",
                   "line": 4,
-                  "filename": "root-mixin.jade"
+                  "filename": "root-mixin.pug"
                 }
               ],
               "line": 4,
-              "filename": "root-mixin.jade"
+              "filename": "root-mixin.pug"
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
             "line": 4,
-            "filename": "root-mixin.jade"
+            "filename": "root-mixin.pug"
           }
         ],
         "line": 4,
-        "filename": "root-mixin.jade"
+        "filename": "root-mixin.pug"
       },
       "call": false,
       "line": 3,
-      "filename": "root-mixin.jade"
+      "filename": "root-mixin.pug"
     },
     {
       "type": "Doctype",
       "val": "",
       "line": 1,
-      "filename": "../fixtures/layout.jade"
+      "filename": "../fixtures/layout.pug"
     },
     {
       "type": "Tag",
@@ -65,25 +65,25 @@
                     {
                       "type": "Text",
                       "val": "<title>Hello world!</title>",
-                      "filename": "../fixtures/layout.jade",
+                      "filename": "../fixtures/layout.pug",
                       "line": 6,
                       "isHtml": true
                     }
                   ],
                   "line": 5,
-                  "filename": "../fixtures/layout.jade",
+                  "filename": "../fixtures/layout.pug",
                   "name": "head",
                   "mode": "replace"
                 }
               ],
               "line": 4,
-              "filename": "../fixtures/layout.jade"
+              "filename": "../fixtures/layout.pug"
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
             "line": 4,
-            "filename": "../fixtures/layout.jade"
+            "filename": "../fixtures/layout.pug"
           },
           {
             "type": "Tag",
@@ -106,17 +106,17 @@
                             "type": "Text",
                             "val": "Before",
                             "line": 7,
-                            "filename": "root-mixin.jade"
+                            "filename": "root-mixin.pug"
                           }
                         ],
                         "line": 7,
-                        "filename": "root-mixin.jade"
+                        "filename": "root-mixin.pug"
                       },
                       "attrs": [],
                       "attributeBlocks": [],
                       "isInline": false,
                       "line": 7,
-                      "filename": "root-mixin.jade"
+                      "filename": "root-mixin.pug"
                     },
                     {
                       "type": "Mixin",
@@ -127,7 +127,7 @@
                       "attrs": [],
                       "attributeBlocks": [],
                       "line": 8,
-                      "filename": "root-mixin.jade"
+                      "filename": "root-mixin.pug"
                     },
                     {
                       "type": "Tag",
@@ -140,47 +140,47 @@
                             "type": "Text",
                             "val": "After",
                             "line": 9,
-                            "filename": "root-mixin.jade"
+                            "filename": "root-mixin.pug"
                           }
                         ],
                         "line": 9,
-                        "filename": "root-mixin.jade"
+                        "filename": "root-mixin.pug"
                       },
                       "attrs": [],
                       "attributeBlocks": [],
                       "isInline": false,
                       "line": 9,
-                      "filename": "root-mixin.jade"
+                      "filename": "root-mixin.pug"
                     }
                   ],
                   "line": 8,
-                  "filename": "../fixtures/layout.jade",
+                  "filename": "../fixtures/layout.pug",
                   "name": "body",
                   "mode": "replace"
                 }
               ],
               "line": 7,
-              "filename": "../fixtures/layout.jade"
+              "filename": "../fixtures/layout.pug"
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
             "line": 7,
-            "filename": "../fixtures/layout.jade"
+            "filename": "../fixtures/layout.pug"
           }
         ],
         "line": 3,
-        "filename": "../fixtures/layout.jade"
+        "filename": "../fixtures/layout.pug"
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
       "line": 3,
-      "filename": "../fixtures/layout.jade"
+      "filename": "../fixtures/layout.pug"
     }
   ],
   "line": 0,
-  "filename": "../fixtures/layout.jade",
+  "filename": "../fixtures/layout.pug",
   "declaredBlocks": {
     "head": {
       "type": "NamedBlock",
@@ -188,13 +188,13 @@
         {
           "type": "Text",
           "val": "<title>Hello world!</title>",
-          "filename": "../fixtures/layout.jade",
+          "filename": "../fixtures/layout.pug",
           "line": 6,
           "isHtml": true
         }
       ],
       "line": 5,
-      "filename": "../fixtures/layout.jade",
+      "filename": "../fixtures/layout.pug",
       "name": "head",
       "mode": "replace"
     },
@@ -212,17 +212,17 @@
                 "type": "Text",
                 "val": "Before",
                 "line": 7,
-                "filename": "root-mixin.jade"
+                "filename": "root-mixin.pug"
               }
             ],
             "line": 7,
-            "filename": "root-mixin.jade"
+            "filename": "root-mixin.pug"
           },
           "attrs": [],
           "attributeBlocks": [],
           "isInline": false,
           "line": 7,
-          "filename": "root-mixin.jade"
+          "filename": "root-mixin.pug"
         },
         {
           "type": "Mixin",
@@ -233,7 +233,7 @@
           "attrs": [],
           "attributeBlocks": [],
           "line": 8,
-          "filename": "root-mixin.jade"
+          "filename": "root-mixin.pug"
         },
         {
           "type": "Tag",
@@ -246,21 +246,21 @@
                 "type": "Text",
                 "val": "After",
                 "line": 9,
-                "filename": "root-mixin.jade"
+                "filename": "root-mixin.pug"
               }
             ],
             "line": 9,
-            "filename": "root-mixin.jade"
+            "filename": "root-mixin.pug"
           },
           "attrs": [],
           "attributeBlocks": [],
           "isInline": false,
           "line": 9,
-          "filename": "root-mixin.jade"
+          "filename": "root-mixin.pug"
         }
       ],
       "line": 6,
-      "filename": "root-mixin.jade",
+      "filename": "root-mixin.pug",
       "name": "body",
       "mode": "replace",
       "parent": {
@@ -277,17 +277,17 @@
                   "type": "Text",
                   "val": "Before",
                   "line": 7,
-                  "filename": "root-mixin.jade"
+                  "filename": "root-mixin.pug"
                 }
               ],
               "line": 7,
-              "filename": "root-mixin.jade"
+              "filename": "root-mixin.pug"
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
             "line": 7,
-            "filename": "root-mixin.jade"
+            "filename": "root-mixin.pug"
           },
           {
             "type": "Mixin",
@@ -298,7 +298,7 @@
             "attrs": [],
             "attributeBlocks": [],
             "line": 8,
-            "filename": "root-mixin.jade"
+            "filename": "root-mixin.pug"
           },
           {
             "type": "Tag",
@@ -311,21 +311,21 @@
                   "type": "Text",
                   "val": "After",
                   "line": 9,
-                  "filename": "root-mixin.jade"
+                  "filename": "root-mixin.pug"
                 }
               ],
               "line": 9,
-              "filename": "root-mixin.jade"
+              "filename": "root-mixin.pug"
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
             "line": 9,
-            "filename": "root-mixin.jade"
+            "filename": "root-mixin.pug"
           }
         ],
         "line": 8,
-        "filename": "../fixtures/layout.jade",
+        "filename": "../fixtures/layout.pug",
         "name": "body",
         "mode": "replace"
       }
