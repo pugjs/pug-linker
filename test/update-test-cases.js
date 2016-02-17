@@ -149,12 +149,7 @@ function updateDirErrored (outDir, originalFileDir, inputFiles) {
   });
 }
 
-var upstreamCases = path.dirname(require.resolve('jade')) + '/../test/cases';
-var inputJade = fs.readdirSync(upstreamCases).filter(function (name) {
-  return /^(layout|include).*\.jade$/.test(name);
-});
-
-updateDir(__dirname + '/cases', upstreamCases, inputJade);
+updateDir(__dirname + '/cases', __dirname + '/cases-src');
 
 updateDir(__dirname + '/special-cases', __dirname + '/special-cases-src');
 

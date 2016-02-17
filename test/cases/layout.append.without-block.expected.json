@@ -19,7 +19,7 @@
                   "type": "Block",
                   "nodes": [],
                   "line": 4,
-                  "filename": "../fixtures/append-without-block/layout.jade"
+                  "filename": "auxiliary/append-without-block/layout.jade"
                 },
                 "attrs": [
                   {
@@ -31,7 +31,7 @@
                 "attributeBlocks": [],
                 "isInline": false,
                 "line": 4,
-                "filename": "../fixtures/append-without-block/layout.jade"
+                "filename": "auxiliary/append-without-block/layout.jade"
               },
               {
                 "type": "Tag",
@@ -41,7 +41,7 @@
                   "type": "Block",
                   "nodes": [],
                   "line": 5,
-                  "filename": "../fixtures/append-without-block/layout.jade"
+                  "filename": "auxiliary/append-without-block/layout.jade"
                 },
                 "attrs": [
                   {
@@ -53,7 +53,7 @@
                 "attributeBlocks": [],
                 "isInline": false,
                 "line": 5,
-                "filename": "../fixtures/append-without-block/layout.jade"
+                "filename": "auxiliary/append-without-block/layout.jade"
               },
               {
                 "type": "Tag",
@@ -63,7 +63,7 @@
                   "type": "Block",
                   "nodes": [],
                   "line": 5,
-                  "filename": "../fixtures/append-without-block/app-layout.jade"
+                  "filename": "auxiliary/append-without-block/app-layout.jade"
                 },
                 "attrs": [
                   {
@@ -75,7 +75,7 @@
                 "attributeBlocks": [],
                 "isInline": false,
                 "line": 5,
-                "filename": "../fixtures/append-without-block/app-layout.jade"
+                "filename": "auxiliary/append-without-block/app-layout.jade"
               },
               {
                 "type": "Tag",
@@ -123,7 +123,7 @@
               }
             ],
             "line": 3,
-            "filename": "../fixtures/append-without-block/layout.jade",
+            "filename": "auxiliary/append-without-block/layout.jade",
             "name": "head",
             "mode": "replace"
           },
@@ -138,33 +138,33 @@
                   "type": "NamedBlock",
                   "nodes": [],
                   "line": 7,
-                  "filename": "../fixtures/append-without-block/layout.jade",
+                  "filename": "auxiliary/append-without-block/layout.jade",
                   "name": "body",
                   "mode": "replace"
                 }
               ],
               "line": 6,
-              "filename": "../fixtures/append-without-block/layout.jade"
+              "filename": "auxiliary/append-without-block/layout.jade"
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
             "line": 6,
-            "filename": "../fixtures/append-without-block/layout.jade"
+            "filename": "auxiliary/append-without-block/layout.jade"
           }
         ],
         "line": 2,
-        "filename": "../fixtures/append-without-block/layout.jade"
+        "filename": "auxiliary/append-without-block/layout.jade"
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
       "line": 2,
-      "filename": "../fixtures/append-without-block/layout.jade"
+      "filename": "auxiliary/append-without-block/layout.jade"
     }
   ],
   "line": 0,
-  "filename": "../fixtures/append-without-block/layout.jade",
+  "filename": "auxiliary/append-without-block/layout.jade",
   "declaredBlocks": {
     "head": {
       "type": "NamedBlock",
@@ -177,7 +177,7 @@
             "type": "Block",
             "nodes": [],
             "line": 4,
-            "filename": "../fixtures/append-without-block/layout.jade"
+            "filename": "auxiliary/append-without-block/layout.jade"
           },
           "attrs": [
             {
@@ -189,7 +189,7 @@
           "attributeBlocks": [],
           "isInline": false,
           "line": 4,
-          "filename": "../fixtures/append-without-block/layout.jade"
+          "filename": "auxiliary/append-without-block/layout.jade"
         },
         {
           "type": "Tag",
@@ -199,7 +199,7 @@
             "type": "Block",
             "nodes": [],
             "line": 5,
-            "filename": "../fixtures/append-without-block/layout.jade"
+            "filename": "auxiliary/append-without-block/layout.jade"
           },
           "attrs": [
             {
@@ -211,7 +211,7 @@
           "attributeBlocks": [],
           "isInline": false,
           "line": 5,
-          "filename": "../fixtures/append-without-block/layout.jade"
+          "filename": "auxiliary/append-without-block/layout.jade"
         },
         {
           "type": "Tag",
@@ -221,7 +221,7 @@
             "type": "Block",
             "nodes": [],
             "line": 5,
-            "filename": "../fixtures/append-without-block/app-layout.jade"
+            "filename": "auxiliary/append-without-block/app-layout.jade"
           },
           "attrs": [
             {
@@ -233,7 +233,7 @@
           "attributeBlocks": [],
           "isInline": false,
           "line": 5,
-          "filename": "../fixtures/append-without-block/app-layout.jade"
+          "filename": "auxiliary/append-without-block/app-layout.jade"
         },
         {
           "type": "Tag",
@@ -281,7 +281,7 @@
         }
       ],
       "line": 3,
-      "filename": "../fixtures/append-without-block/layout.jade",
+      "filename": "auxiliary/append-without-block/layout.jade",
       "name": "head",
       "mode": "replace"
     },
@@ -289,7 +289,7 @@
       "type": "NamedBlock",
       "nodes": [],
       "line": 7,
-      "filename": "../fixtures/append-without-block/layout.jade",
+      "filename": "auxiliary/append-without-block/layout.jade",
       "name": "body",
       "mode": "replace"
     }
