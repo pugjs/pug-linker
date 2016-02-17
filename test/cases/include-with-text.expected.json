@@ -32,7 +32,7 @@
                           }
                         ],
                         "line": 2,
-                        "filename": "include-with-text-head.jade"
+                        "filename": "include-with-text-head.pug"
                       },
                       "attrs": [
                         {
@@ -44,7 +44,7 @@
                       "attributeBlocks": [],
                       "isInline": false,
                       "line": 2,
-                      "filename": "include-with-text-head.jade",
+                      "filename": "include-with-text-head.pug",
                       "textOnly": true
                     },
                     {
@@ -58,7 +58,7 @@
                             "type": "Block",
                             "nodes": [],
                             "line": 3,
-                            "filename": "include-with-text.jade"
+                            "filename": "include-with-text.pug"
                           },
                           "attrs": [
                             {
@@ -70,7 +70,7 @@
                           "attributeBlocks": [],
                           "isInline": false,
                           "line": 3,
-                          "filename": "include-with-text.jade"
+                          "filename": "include-with-text.pug"
                         },
                         {
                           "type": "Tag",
@@ -80,7 +80,7 @@
                             "type": "Block",
                             "nodes": [],
                             "line": 4,
-                            "filename": "include-with-text.jade"
+                            "filename": "include-with-text.pug"
                           },
                           "attrs": [
                             {
@@ -92,39 +92,39 @@
                           "attributeBlocks": [],
                           "isInline": false,
                           "line": 4,
-                          "filename": "include-with-text.jade"
+                          "filename": "include-with-text.pug"
                         }
                       ],
                       "line": 3,
-                      "filename": "include-with-text.jade"
+                      "filename": "include-with-text.pug"
                     }
                   ],
                   "line": 1,
-                  "filename": "include-with-text-head.jade"
+                  "filename": "include-with-text-head.pug"
                 },
                 "attrs": [],
                 "attributeBlocks": [],
                 "isInline": false,
                 "line": 1,
-                "filename": "include-with-text-head.jade"
+                "filename": "include-with-text-head.pug"
               }
             ],
             "line": 0,
-            "filename": "include-with-text-head.jade",
+            "filename": "include-with-text-head.pug",
             "declaredBlocks": {}
           }
         ],
         "line": 1,
-        "filename": "include-with-text.jade"
+        "filename": "include-with-text.pug"
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
       "line": 1,
-      "filename": "include-with-text.jade"
+      "filename": "include-with-text.pug"
     }
   ],
   "line": 0,
-  "filename": "include-with-text.jade",
+  "filename": "include-with-text.pug",
   "declaredBlocks": {}
 }

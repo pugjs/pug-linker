@@ -29,35 +29,35 @@
                             "type": "Text",
                             "val": "My Application",
                             "line": 3,
-                            "filename": "auxiliary/layout.jade"
+                            "filename": "auxiliary/layout.pug"
                           }
                         ],
                         "line": 3,
-                        "filename": "auxiliary/layout.jade"
+                        "filename": "auxiliary/layout.pug"
                       },
                       "attrs": [],
                       "attributeBlocks": [],
                       "isInline": false,
                       "line": 3,
-                      "filename": "auxiliary/layout.jade"
+                      "filename": "auxiliary/layout.pug"
                     },
                     {
                       "type": "NamedBlock",
                       "nodes": [],
                       "line": 4,
-                      "filename": "auxiliary/layout.jade",
+                      "filename": "auxiliary/layout.pug",
                       "name": "head",
                       "mode": "replace"
                     }
                   ],
                   "line": 2,
-                  "filename": "auxiliary/layout.jade"
+                  "filename": "auxiliary/layout.pug"
                 },
                 "attrs": [],
                 "attributeBlocks": [],
                 "isInline": false,
                 "line": 2,
-                "filename": "auxiliary/layout.jade"
+                "filename": "auxiliary/layout.pug"
               },
               {
                 "type": "Tag",
@@ -83,58 +83,58 @@
                                     "type": "Text",
                                     "val": "hello",
                                     "line": 1,
-                                    "filename": "auxiliary/include-from-root.jade"
+                                    "filename": "auxiliary/include-from-root.pug"
                                   }
                                 ],
                                 "line": 1,
-                                "filename": "auxiliary/include-from-root.jade"
+                                "filename": "auxiliary/include-from-root.pug"
                               },
                               "attrs": [],
                               "attributeBlocks": [],
                               "isInline": false,
                               "line": 1,
-                              "filename": "auxiliary/include-from-root.jade"
+                              "filename": "auxiliary/include-from-root.pug"
                             }
                           ],
                           "line": 0,
-                          "filename": "auxiliary/include-from-root.jade",
+                          "filename": "auxiliary/include-from-root.pug",
                           "declaredBlocks": {}
                         }
                       ],
                       "line": 6,
-                      "filename": "auxiliary/layout.jade",
+                      "filename": "auxiliary/layout.pug",
                       "name": "content",
                       "mode": "replace"
                     }
                   ],
                   "line": 5,
-                  "filename": "auxiliary/layout.jade"
+                  "filename": "auxiliary/layout.pug"
                 },
                 "attrs": [],
                 "attributeBlocks": [],
                 "isInline": false,
                 "line": 5,
-                "filename": "auxiliary/layout.jade"
+                "filename": "auxiliary/layout.pug"
               }
             ],
             "line": 1,
-            "filename": "auxiliary/layout.jade"
+            "filename": "auxiliary/layout.pug"
           },
           "attrs": [],
           "attributeBlocks": [],
           "isInline": false,
           "line": 1,
-          "filename": "auxiliary/layout.jade"
+          "filename": "auxiliary/layout.pug"
         }
       ],
       "line": 0,
-      "filename": "auxiliary/layout.jade",
+      "filename": "auxiliary/layout.pug",
       "declaredBlocks": {
         "head": {
           "type": "NamedBlock",
           "nodes": [],
           "line": 4,
-          "filename": "auxiliary/layout.jade",
+          "filename": "auxiliary/layout.pug",
           "name": "head",
           "mode": "replace"
         },
@@ -155,26 +155,26 @@
                         "type": "Text",
                         "val": "hello",
                         "line": 1,
-                        "filename": "auxiliary/include-from-root.jade"
+                        "filename": "auxiliary/include-from-root.pug"
                       }
                     ],
                     "line": 1,
-                    "filename": "auxiliary/include-from-root.jade"
+                    "filename": "auxiliary/include-from-root.pug"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 1,
-                  "filename": "auxiliary/include-from-root.jade"
+                  "filename": "auxiliary/include-from-root.pug"
                 }
               ],
               "line": 0,
-              "filename": "auxiliary/include-from-root.jade",
+              "filename": "auxiliary/include-from-root.pug",
               "declaredBlocks": {}
             }
           ],
           "line": 3,
-          "filename": "auxiliary/extends-from-root.jade",
+          "filename": "auxiliary/extends-from-root.pug",
           "name": "content",
           "mode": "replace",
           "parent": {
@@ -194,26 +194,26 @@
                           "type": "Text",
                           "val": "hello",
                           "line": 1,
-                          "filename": "auxiliary/include-from-root.jade"
+                          "filename": "auxiliary/include-from-root.pug"
                         }
                       ],
                       "line": 1,
-                      "filename": "auxiliary/include-from-root.jade"
+                      "filename": "auxiliary/include-from-root.pug"
                     },
                     "attrs": [],
                     "attributeBlocks": [],
                     "isInline": false,
                     "line": 1,
-                    "filename": "auxiliary/include-from-root.jade"
+                    "filename": "auxiliary/include-from-root.pug"
                   }
                 ],
                 "line": 0,
-                "filename": "auxiliary/include-from-root.jade",
+                "filename": "auxiliary/include-from-root.pug",
                 "declaredBlocks": {}
               }
             ],
             "line": 6,
-            "filename": "auxiliary/layout.jade",
+            "filename": "auxiliary/layout.pug",
             "name": "content",
             "mode": "replace"
           }
@@ -222,13 +222,13 @@
     }
   ],
   "line": 0,
-  "filename": "include-extends-from-root.jade",
+  "filename": "include-extends-from-root.pug",
   "declaredBlocks": {
     "head": {
       "type": "NamedBlock",
       "nodes": [],
       "line": 4,
-      "filename": "auxiliary/layout.jade",
+      "filename": "auxiliary/layout.pug",
       "name": "head",
       "mode": "replace"
     },
@@ -249,26 +249,26 @@
                     "type": "Text",
                     "val": "hello",
                     "line": 1,
-                    "filename": "auxiliary/include-from-root.jade"
+                    "filename": "auxiliary/include-from-root.pug"
                   }
                 ],
                 "line": 1,
-                "filename": "auxiliary/include-from-root.jade"
+                "filename": "auxiliary/include-from-root.pug"
               },
               "attrs": [],
               "attributeBlocks": [],
               "isInline": false,
               "line": 1,
-              "filename": "auxiliary/include-from-root.jade"
+              "filename": "auxiliary/include-from-root.pug"
             }
           ],
           "line": 0,
-          "filename": "auxiliary/include-from-root.jade",
+          "filename": "auxiliary/include-from-root.pug",
           "declaredBlocks": {}
         }
       ],
       "line": 6,
-      "filename": "auxiliary/layout.jade",
+      "filename": "auxiliary/layout.pug",
       "name": "content",
       "mode": "replace"
     }

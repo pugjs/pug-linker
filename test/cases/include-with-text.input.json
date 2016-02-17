@@ -13,9 +13,9 @@
             "file": {
               "type": "FileReference",
               "line": 2,
-              "filename": "include-with-text.jade",
-              "path": "include-with-text-head.jade",
-              "fullPath": "include-with-text-head.jade",
+              "filename": "include-with-text.pug",
+              "path": "include-with-text-head.pug",
+              "fullPath": "include-with-text-head.pug",
               "str": "head\n  script(type='text/javascript').\n    alert('hello world');\n",
               "ast": {
                 "type": "Block",
@@ -41,7 +41,7 @@
                               }
                             ],
                             "line": 2,
-                            "filename": "include-with-text-head.jade"
+                            "filename": "include-with-text-head.pug"
                           },
                           "attrs": [
                             {
@@ -53,26 +53,26 @@
                           "attributeBlocks": [],
                           "isInline": false,
                           "line": 2,
-                          "filename": "include-with-text-head.jade",
+                          "filename": "include-with-text-head.pug",
                           "textOnly": true
                         }
                       ],
                       "line": 1,
-                      "filename": "include-with-text-head.jade"
+                      "filename": "include-with-text-head.pug"
                     },
                     "attrs": [],
                     "attributeBlocks": [],
                     "isInline": false,
                     "line": 1,
-                    "filename": "include-with-text-head.jade"
+                    "filename": "include-with-text-head.pug"
                   }
                 ],
                 "line": 0,
-                "filename": "include-with-text-head.jade"
+                "filename": "include-with-text-head.pug"
               }
             },
             "line": 2,
-            "filename": "include-with-text.jade",
+            "filename": "include-with-text.pug",
             "block": {
               "type": "Block",
               "nodes": [
@@ -84,7 +84,7 @@
                     "type": "Block",
                     "nodes": [],
                     "line": 3,
-                    "filename": "include-with-text.jade"
+                    "filename": "include-with-text.pug"
                   },
                   "attrs": [
                     {
@@ -96,7 +96,7 @@
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 3,
-                  "filename": "include-with-text.jade"
+                  "filename": "include-with-text.pug"
                 },
                 {
                   "type": "Tag",
@@ -106,7 +106,7 @@
                     "type": "Block",
                     "nodes": [],
                     "line": 4,
-                    "filename": "include-with-text.jade"
+                    "filename": "include-with-text.pug"
                   },
                   "attrs": [
                     {
@@ -118,24 +118,24 @@
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 4,
-                  "filename": "include-with-text.jade"
+                  "filename": "include-with-text.pug"
                 }
               ],
               "line": 3,
-              "filename": "include-with-text.jade"
+              "filename": "include-with-text.pug"
             }
           }
         ],
         "line": 1,
-        "filename": "include-with-text.jade"
+        "filename": "include-with-text.pug"
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
       "line": 1,
-      "filename": "include-with-text.jade"
+      "filename": "include-with-text.pug"
     }
   ],
   "line": 0,
-  "filename": "include-with-text.jade"
+  "filename": "include-with-text.pug"
 }

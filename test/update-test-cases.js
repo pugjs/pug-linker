@@ -2,9 +2,9 @@
 
 var fs = require('fs');
 var path = require('path');
-var lex = require('jade-lexer');
-var parse = require('jade-parser');
-var load = require('jade-load');
+var lex = require('pug-lexer');
+var parse = require('pug-parser');
+var load = require('pug-loader');
 var link = require('../');
 var prettyStringify = require('./common').prettyStringify;
 var assertObjEqual = require('./common').assertObjEqual;
@@ -18,7 +18,7 @@ function removeItem (array, itemToRemove) {
 function updateDir (outDir, originalFileDir, inputFiles) {
   originalFileDir = originalFileDir || outDir;
   inputFiles = inputFiles || fs.readdirSync(originalFileDir).filter(function (name) {
-    return /\.jade$/.test(name);
+    return /\.pug$/.test(name);
   });
   var existing = fs.readdirSync(outDir).filter(function (name) {
     return /\.input\.json$/.test(name);
@@ -28,12 +28,12 @@ function updateDir (outDir, originalFileDir, inputFiles) {
   });
   inputFiles.forEach(update);
 
-  function update (jadeName) {
-    var name = jadeName.replace(/\.jade$/, '');
+  function update (pugName) {
+    var name = pugName.replace(/\.pug$/, '');
     var inputName = name + '.input.json';
     var expectedName = name + '.expected.json';
     var alreadyExists = existing.indexOf(inputName) !== -1 && existingExpected.indexOf(expectedName) !== -1;
-    var actualInputAst = load.file(jadeName, {
+    var actualInputAst = load.file(pugName, {
       lex: lex,
       parse: parse,
       resolve: function (filename, source) {
@@ -43,7 +43,7 @@ function updateDir (outDir, originalFileDir, inputFiles) {
         if (filename[0] === '/') filename = filename.substr(1);
         else filename = path.join(path.dirname(source), filename);
 
-        if (path.basename(filename).indexOf('.') === -1) filename += '.jade';
+        if (path.basename(filename).indexOf('.') === -1) filename += '.pug';
         filename = path.normalize(filename);
         return filename;
       },
@@ -87,19 +87,19 @@ function updateDir (outDir, originalFileDir, inputFiles) {
 function updateDirErrored (outDir, originalFileDir, inputFiles) {
   originalFileDir = originalFileDir || outDir;
   inputFiles = inputFiles || fs.readdirSync(originalFileDir).filter(function (name) {
-    return /\.jade$/.test(name);
+    return /\.pug$/.test(name);
   });
   var existing = fs.readdirSync(outDir).filter(function (name) {
     return /\.input\.json$/.test(name);
   });
   inputFiles.forEach(update);
 
-  function update (jadeName) {
-    var name = jadeName.replace(/\.jade$/, '');
+  function update (pugName) {
+    var name = pugName.replace(/\.pug$/, '');
     var inputName = name + '.input.json';
     var expectedName = name + '.expected.json';
     var alreadyExists = existing.indexOf(inputName) !== -1;
-    var actualInputAst = load.file(jadeName, {
+    var actualInputAst = load.file(pugName, {
       lex: lex,
       parse: parse,
       resolve: function (filename, source) {
@@ -109,7 +109,7 @@ function updateDirErrored (outDir, originalFileDir, inputFiles) {
         if (filename[0] === '/') filename = filename.substr(1);
         else filename = path.join(path.dirname(source), filename);
 
-        if (path.basename(filename).indexOf('.') === -1) filename += '.jade';
+        if (path.basename(filename).indexOf('.') === -1) filename += '.pug';
         filename = path.normalize(filename);
         return filename;
       },

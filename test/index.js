@@ -39,7 +39,7 @@ function testDirError (dir) {
   });
 }
 
-test('cases from jade', function () {
+test('cases from pug', function () {
   testDir(__dirname + '/cases');
 });
 

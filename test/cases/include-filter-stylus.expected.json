@@ -14,7 +14,7 @@
           }
         ],
         "line": 1,
-        "filename": "include-filter-stylus.jade"
+        "filename": "include-filter-stylus.pug"
       },
       "attrs": [
         {
@@ -26,10 +26,10 @@
       "attributeBlocks": [],
       "isInline": false,
       "line": 1,
-      "filename": "include-filter-stylus.jade"
+      "filename": "include-filter-stylus.pug"
     }
   ],
   "line": 0,
-  "filename": "include-filter-stylus.jade",
+  "filename": "include-filter-stylus.pug",
   "declaredBlocks": {}
 }
