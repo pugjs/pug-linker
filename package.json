@@ -1,6 +1,6 @@
 {
   "name": "pug-linker",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Link multiple pug ASTs together using include/extends",
   "keywords": [
     "pug"
