@@ -25,7 +25,7 @@ function link(ast) {
     var expectedBlocks = [];
     ast.nodes.forEach(function addNode(node) {
       if (node.type === 'NamedBlock') {
-        expectedBlocks.push(node.name);
+        expectedBlocks.push(node);
       } else if (node.type === 'Block') {
         node.nodes.forEach(addNode);
       } else if (node.type === 'Mixin' && node.call === false) {
@@ -36,19 +36,21 @@ function link(ast) {
     });
     var parent = link(extendsNode.file.ast);
     extend(parent.declaredBlocks, ast);
+    var foundBlockNames = [];
     walk(parent, function (node) {
       if (node.type === 'NamedBlock') {
-        expectedBlocks = expectedBlocks.filter(function (name) {
-          return name !== node.name;
-        });
+        foundBlockNames.push(node.name);
       }
     });
-    if (expectedBlocks.length !== 0) {
-      //throw new Error('Unexpected blocks');
-      expectedBlocks.forEach(function (expectedBlock) {
-        console.warn('Warning: Unexpected block ' + expectedBlock.name + ' on line ' + expectedBlock.line + ' + of ' + expectedBlock.filename + '. This warning will be an error in v2.0.0');
-      });
-    }
+    expectedBlocks.forEach(function (expectedBlock) {
+      if (foundBlockNames.indexOf(expectedBlock.name) === -1) {
+        error(
+          'UNEXPECTED_BLOCK',
+          'Unexpected block ' + expectedBlock.name,
+          expectedBlock
+        );
+      }
+    });
     Object.keys(ast.declaredBlocks).forEach(function (name) {
       parent.declaredBlocks[name] = ast.declaredBlocks[name];
     });

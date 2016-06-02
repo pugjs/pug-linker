@@ -132,6 +132,8 @@ function updateDirErrored (outDir, originalFileDir, inputFiles) {
         link(actualInputAst);
         success = true;
       } catch (ex) {
+        if (!ex.code || ex.code.indexOf('PUG') !== 0) throw ex;
+        console.error(ex.stack);
         fs.writeFileSync(outDir + '/' + expectedName, JSON.stringify({
           msg:  ex.msg,
           code: ex.code,
