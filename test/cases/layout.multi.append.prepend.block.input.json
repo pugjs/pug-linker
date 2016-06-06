@@ -5,10 +5,10 @@
       "type": "Extends",
       "file": {
         "type": "FileReference",
-        "path": "auxiliary/multi-append-prepend-block/redefine.pug",
+        "path": "../fixtures/multi-append-prepend-block/redefine.pug",
         "line": 1,
         "filename": "layout.multi.append.prepend.block.pug",
-        "fullPath": "auxiliary/multi-append-prepend-block/redefine.pug",
+        "fullPath": "../fixtures/multi-append-prepend-block/redefine.pug",
         "str": "extends root.pug\n\nblock content\n\t.content\n\t\t| Defined content\n",
         "ast": {
           "type": "Block",
@@ -19,8 +19,8 @@
                 "type": "FileReference",
                 "path": "root.pug",
                 "line": 1,
-                "filename": "auxiliary/multi-append-prepend-block/redefine.pug",
-                "fullPath": "auxiliary/multi-append-prepend-block/root.pug",
+                "filename": "../fixtures/multi-append-prepend-block/redefine.pug",
+                "fullPath": "../fixtures/multi-append-prepend-block/root.pug",
                 "str": "block content\n\t| default content\n\nblock head\n\tscript(src='/app.js')",
                 "ast": {
                   "type": "Block",
@@ -32,11 +32,11 @@
                           "type": "Text",
                           "val": "default content",
                           "line": 2,
-                          "filename": "auxiliary/multi-append-prepend-block/root.pug"
+                          "filename": "../fixtures/multi-append-prepend-block/root.pug"
                         }
                       ],
                       "line": 1,
-                      "filename": "auxiliary/multi-append-prepend-block/root.pug",
+                      "filename": "../fixtures/multi-append-prepend-block/root.pug",
                       "name": "content",
                       "mode": "replace"
                     },
@@ -51,7 +51,7 @@
                             "type": "Block",
                             "nodes": [],
                             "line": 5,
-                            "filename": "auxiliary/multi-append-prepend-block/root.pug"
+                            "filename": "../fixtures/multi-append-prepend-block/root.pug"
                           },
                           "attrs": [
                             {
@@ -63,21 +63,21 @@
                           "attributeBlocks": [],
                           "isInline": false,
                           "line": 5,
-                          "filename": "auxiliary/multi-append-prepend-block/root.pug"
+                          "filename": "../fixtures/multi-append-prepend-block/root.pug"
                         }
                       ],
                       "line": 4,
-                      "filename": "auxiliary/multi-append-prepend-block/root.pug",
+                      "filename": "../fixtures/multi-append-prepend-block/root.pug",
                       "name": "head",
                       "mode": "replace"
                     }
                   ],
                   "line": 0,
-                  "filename": "auxiliary/multi-append-prepend-block/root.pug"
+                  "filename": "../fixtures/multi-append-prepend-block/root.pug"
                 }
               },
               "line": 1,
-              "filename": "auxiliary/multi-append-prepend-block/redefine.pug"
+              "filename": "../fixtures/multi-append-prepend-block/redefine.pug"
             },
             {
               "type": "NamedBlock",
@@ -93,11 +93,11 @@
                         "type": "Text",
                         "val": "Defined content",
                         "line": 5,
-                        "filename": "auxiliary/multi-append-prepend-block/redefine.pug"
+                        "filename": "../fixtures/multi-append-prepend-block/redefine.pug"
                       }
                     ],
                     "line": 4,
-                    "filename": "auxiliary/multi-append-prepend-block/redefine.pug"
+                    "filename": "../fixtures/multi-append-prepend-block/redefine.pug"
                   },
                   "attrs": [
                     {
@@ -109,17 +109,17 @@
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 4,
-                  "filename": "auxiliary/multi-append-prepend-block/redefine.pug"
+                  "filename": "../fixtures/multi-append-prepend-block/redefine.pug"
                 }
               ],
               "line": 3,
-              "filename": "auxiliary/multi-append-prepend-block/redefine.pug",
+              "filename": "../fixtures/multi-append-prepend-block/redefine.pug",
               "name": "content",
               "mode": "replace"
             }
           ],
           "line": 0,
-          "filename": "auxiliary/multi-append-prepend-block/redefine.pug"
+          "filename": "../fixtures/multi-append-prepend-block/redefine.pug"
         }
       },
       "line": 1,

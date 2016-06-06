@@ -4,7 +4,7 @@ var fs = require('fs');
 var path = require('path');
 var lex = require('pug-lexer');
 var parse = require('pug-parser');
-var load = require('pug-loader');
+var load = require('pug-load');
 var link = require('../');
 var prettyStringify = require('./common').prettyStringify;
 var assertObjEqual = require('./common').assertObjEqual;
@@ -133,7 +133,6 @@ function updateDirErrored (outDir, originalFileDir, inputFiles) {
         success = true;
       } catch (ex) {
         if (!ex.code || ex.code.indexOf('PUG') !== 0) throw ex;
-        console.error(ex.stack);
         fs.writeFileSync(outDir + '/' + expectedName, JSON.stringify({
           msg:  ex.msg,
           code: ex.code,

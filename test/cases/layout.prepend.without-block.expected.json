@@ -63,7 +63,7 @@
                   "type": "Block",
                   "nodes": [],
                   "line": 5,
-                  "filename": "auxiliary/prepend-without-block/app-layout.pug"
+                  "filename": "../fixtures/prepend-without-block/app-layout.pug"
                 },
                 "attrs": [
                   {
@@ -75,7 +75,7 @@
                 "attributeBlocks": [],
                 "isInline": false,
                 "line": 5,
-                "filename": "auxiliary/prepend-without-block/app-layout.pug"
+                "filename": "../fixtures/prepend-without-block/app-layout.pug"
               },
               {
                 "type": "Tag",
@@ -85,7 +85,7 @@
                   "type": "Block",
                   "nodes": [],
                   "line": 4,
-                  "filename": "auxiliary/prepend-without-block/layout.pug"
+                  "filename": "../fixtures/prepend-without-block/layout.pug"
                 },
                 "attrs": [
                   {
@@ -97,7 +97,7 @@
                 "attributeBlocks": [],
                 "isInline": false,
                 "line": 4,
-                "filename": "auxiliary/prepend-without-block/layout.pug"
+                "filename": "../fixtures/prepend-without-block/layout.pug"
               },
               {
                 "type": "Tag",
@@ -107,7 +107,7 @@
                   "type": "Block",
                   "nodes": [],
                   "line": 5,
-                  "filename": "auxiliary/prepend-without-block/layout.pug"
+                  "filename": "../fixtures/prepend-without-block/layout.pug"
                 },
                 "attrs": [
                   {
@@ -119,11 +119,11 @@
                 "attributeBlocks": [],
                 "isInline": false,
                 "line": 5,
-                "filename": "auxiliary/prepend-without-block/layout.pug"
+                "filename": "../fixtures/prepend-without-block/layout.pug"
               }
             ],
             "line": 3,
-            "filename": "auxiliary/prepend-without-block/layout.pug",
+            "filename": "../fixtures/prepend-without-block/layout.pug",
             "name": "head",
             "mode": "replace"
           },
@@ -138,33 +138,33 @@
                   "type": "NamedBlock",
                   "nodes": [],
                   "line": 7,
-                  "filename": "auxiliary/prepend-without-block/layout.pug",
+                  "filename": "../fixtures/prepend-without-block/layout.pug",
                   "name": "body",
                   "mode": "replace"
                 }
               ],
               "line": 6,
-              "filename": "auxiliary/prepend-without-block/layout.pug"
+              "filename": "../fixtures/prepend-without-block/layout.pug"
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
             "line": 6,
-            "filename": "auxiliary/prepend-without-block/layout.pug"
+            "filename": "../fixtures/prepend-without-block/layout.pug"
           }
         ],
         "line": 2,
-        "filename": "auxiliary/prepend-without-block/layout.pug"
+        "filename": "../fixtures/prepend-without-block/layout.pug"
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
       "line": 2,
-      "filename": "auxiliary/prepend-without-block/layout.pug"
+      "filename": "../fixtures/prepend-without-block/layout.pug"
     }
   ],
   "line": 0,
-  "filename": "auxiliary/prepend-without-block/layout.pug",
+  "filename": "../fixtures/prepend-without-block/layout.pug",
   "declaredBlocks": {
     "head": {
       "type": "NamedBlock",
@@ -221,7 +221,7 @@
             "type": "Block",
             "nodes": [],
             "line": 5,
-            "filename": "auxiliary/prepend-without-block/app-layout.pug"
+            "filename": "../fixtures/prepend-without-block/app-layout.pug"
           },
           "attrs": [
             {
@@ -233,7 +233,7 @@
           "attributeBlocks": [],
           "isInline": false,
           "line": 5,
-          "filename": "auxiliary/prepend-without-block/app-layout.pug"
+          "filename": "../fixtures/prepend-without-block/app-layout.pug"
         },
         {
           "type": "Tag",
@@ -243,7 +243,7 @@
             "type": "Block",
             "nodes": [],
             "line": 4,
-            "filename": "auxiliary/prepend-without-block/layout.pug"
+            "filename": "../fixtures/prepend-without-block/layout.pug"
           },
           "attrs": [
             {
@@ -255,7 +255,7 @@
           "attributeBlocks": [],
           "isInline": false,
           "line": 4,
-          "filename": "auxiliary/prepend-without-block/layout.pug"
+          "filename": "../fixtures/prepend-without-block/layout.pug"
         },
         {
           "type": "Tag",
@@ -265,7 +265,7 @@
             "type": "Block",
             "nodes": [],
             "line": 5,
-            "filename": "auxiliary/prepend-without-block/layout.pug"
+            "filename": "../fixtures/prepend-without-block/layout.pug"
           },
           "attrs": [
             {
@@ -277,11 +277,11 @@
           "attributeBlocks": [],
           "isInline": false,
           "line": 5,
-          "filename": "auxiliary/prepend-without-block/layout.pug"
+          "filename": "../fixtures/prepend-without-block/layout.pug"
         }
       ],
       "line": 3,
-      "filename": "auxiliary/prepend-without-block/layout.pug",
+      "filename": "../fixtures/prepend-without-block/layout.pug",
       "name": "head",
       "mode": "replace"
     },
@@ -289,7 +289,7 @@
       "type": "NamedBlock",
       "nodes": [],
       "line": 7,
-      "filename": "auxiliary/prepend-without-block/layout.pug",
+      "filename": "../fixtures/prepend-without-block/layout.pug",
       "name": "body",
       "mode": "replace"
     }

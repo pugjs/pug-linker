@@ -10,10 +10,10 @@
     "pug-walk": "^0.0.3"
   },
   "devDependencies": {
-    "istanbul": "^0.3.17",
-    "pug-lexer": "^1.0.0",
-    "pug-loader": "^1.0.0",
-    "pug-parser": "^1.0.0",
+    "istanbul": "*",
+    "pug-lexer": "^2.0.2",
+    "pug-load": "^2.0.0",
+    "pug-parser": "^2.0.1",
     "testit": "^2.0.2"
   },
   "scripts": {

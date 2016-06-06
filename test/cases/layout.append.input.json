@@ -5,10 +5,10 @@
       "type": "Extends",
       "file": {
         "type": "FileReference",
-        "path": "auxiliary/append/app-layout.pug",
+        "path": "../fixtures/append/app-layout.pug",
         "line": 2,
         "filename": "layout.append.pug",
-        "fullPath": "auxiliary/append/app-layout.pug",
+        "fullPath": "../fixtures/append/app-layout.pug",
         "str": "\nextends layout\n\nblock append head\n  script(src='app.js')",
         "ast": {
           "type": "Block",
@@ -19,8 +19,8 @@
                 "type": "FileReference",
                 "path": "layout",
                 "line": 2,
-                "filename": "auxiliary/append/app-layout.pug",
-                "fullPath": "auxiliary/append/layout.pug",
+                "filename": "../fixtures/append/app-layout.pug",
+                "fullPath": "../fixtures/append/layout.pug",
                 "str": "\nhtml\n  block head\n    script(src='vendor/jquery.js')\n    script(src='vendor/caustic.js')\n  body\n    block body",
                 "ast": {
                   "type": "Block",
@@ -43,7 +43,7 @@
                                   "type": "Block",
                                   "nodes": [],
                                   "line": 4,
-                                  "filename": "auxiliary/append/layout.pug"
+                                  "filename": "../fixtures/append/layout.pug"
                                 },
                                 "attrs": [
                                   {
@@ -55,7 +55,7 @@
                                 "attributeBlocks": [],
                                 "isInline": false,
                                 "line": 4,
-                                "filename": "auxiliary/append/layout.pug"
+                                "filename": "../fixtures/append/layout.pug"
                               },
                               {
                                 "type": "Tag",
@@ -65,7 +65,7 @@
                                   "type": "Block",
                                   "nodes": [],
                                   "line": 5,
-                                  "filename": "auxiliary/append/layout.pug"
+                                  "filename": "../fixtures/append/layout.pug"
                                 },
                                 "attrs": [
                                   {
@@ -77,11 +77,11 @@
                                 "attributeBlocks": [],
                                 "isInline": false,
                                 "line": 5,
-                                "filename": "auxiliary/append/layout.pug"
+                                "filename": "../fixtures/append/layout.pug"
                               }
                             ],
                             "line": 3,
-                            "filename": "auxiliary/append/layout.pug",
+                            "filename": "../fixtures/append/layout.pug",
                             "name": "head",
                             "mode": "replace"
                           },
@@ -96,37 +96,37 @@
                                   "type": "NamedBlock",
                                   "nodes": [],
                                   "line": 7,
-                                  "filename": "auxiliary/append/layout.pug",
+                                  "filename": "../fixtures/append/layout.pug",
                                   "name": "body",
                                   "mode": "replace"
                                 }
                               ],
                               "line": 6,
-                              "filename": "auxiliary/append/layout.pug"
+                              "filename": "../fixtures/append/layout.pug"
                             },
                             "attrs": [],
                             "attributeBlocks": [],
                             "isInline": false,
                             "line": 6,
-                            "filename": "auxiliary/append/layout.pug"
+                            "filename": "../fixtures/append/layout.pug"
                           }
                         ],
                         "line": 2,
-                        "filename": "auxiliary/append/layout.pug"
+                        "filename": "../fixtures/append/layout.pug"
                       },
                       "attrs": [],
                       "attributeBlocks": [],
                       "isInline": false,
                       "line": 2,
-                      "filename": "auxiliary/append/layout.pug"
+                      "filename": "../fixtures/append/layout.pug"
                     }
                   ],
                   "line": 0,
-                  "filename": "auxiliary/append/layout.pug"
+                  "filename": "../fixtures/append/layout.pug"
                 }
               },
               "line": 2,
-              "filename": "auxiliary/append/app-layout.pug"
+              "filename": "../fixtures/append/app-layout.pug"
             },
             {
               "type": "NamedBlock",
@@ -139,7 +139,7 @@
                     "type": "Block",
                     "nodes": [],
                     "line": 5,
-                    "filename": "auxiliary/append/app-layout.pug"
+                    "filename": "../fixtures/append/app-layout.pug"
                   },
                   "attrs": [
                     {
@@ -151,17 +151,17 @@
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 5,
-                  "filename": "auxiliary/append/app-layout.pug"
+                  "filename": "../fixtures/append/app-layout.pug"
                 }
               ],
               "line": 4,
-              "filename": "auxiliary/append/app-layout.pug",
+              "filename": "../fixtures/append/app-layout.pug",
               "name": "head",
               "mode": "append"
             }
           ],
           "line": 0,
-          "filename": "auxiliary/append/app-layout.pug"
+          "filename": "../fixtures/append/app-layout.pug"
         }
       },
       "line": 2,
