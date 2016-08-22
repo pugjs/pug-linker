@@ -83,7 +83,8 @@
             ],
             "line": 0,
             "filename": "auxiliary/pet.pug",
-            "declaredBlocks": {}
+            "declaredBlocks": {},
+            "wasInclude": true
           }
         ],
         "line": 1,

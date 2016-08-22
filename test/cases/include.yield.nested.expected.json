@@ -242,7 +242,8 @@
       ],
       "line": 0,
       "filename": "auxiliary/yield-nested.pug",
-      "declaredBlocks": {}
+      "declaredBlocks": {},
+      "wasInclude": true
     }
   ],
   "line": 0,

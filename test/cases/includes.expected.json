@@ -45,7 +45,8 @@
       ],
       "line": 0,
       "filename": "auxiliary/mixins.pug",
-      "declaredBlocks": {}
+      "declaredBlocks": {},
+      "wasInclude": true
     },
     {
       "type": "Mixin",

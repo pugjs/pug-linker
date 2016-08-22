@@ -111,7 +111,8 @@
             ],
             "line": 0,
             "filename": "include-with-text-head.pug",
-            "declaredBlocks": {}
+            "declaredBlocks": {},
+            "wasInclude": true
           }
         ],
         "line": 1,

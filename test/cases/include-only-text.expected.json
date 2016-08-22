@@ -77,7 +77,8 @@
                         ],
                         "line": 0,
                         "filename": "include-only-text-body.pug",
-                        "declaredBlocks": {}
+                        "declaredBlocks": {},
+                        "wasInclude": true
                       }
                     ],
                     "line": 3,

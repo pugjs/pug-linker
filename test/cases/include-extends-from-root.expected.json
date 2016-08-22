@@ -98,7 +98,8 @@
                           ],
                           "line": 0,
                           "filename": "auxiliary/include-from-root.pug",
-                          "declaredBlocks": {}
+                          "declaredBlocks": {},
+                          "wasInclude": true
                         }
                       ],
                       "line": 6,
@@ -170,7 +171,8 @@
               ],
               "line": 0,
               "filename": "auxiliary/include-from-root.pug",
-              "declaredBlocks": {}
+              "declaredBlocks": {},
+              "wasInclude": true
             }
           ],
           "line": 6,
@@ -178,59 +180,11 @@
           "name": "content",
           "mode": "replace"
         }
-      }
+      },
+      "wasInclude": true
     }
   ],
   "line": 0,
   "filename": "include-extends-from-root.pug",
-  "declaredBlocks": {
-    "head": {
-      "type": "NamedBlock",
-      "nodes": [],
-      "line": 4,
-      "filename": "auxiliary/layout.pug",
-      "name": "head",
-      "mode": "replace"
-    },
-    "content": {
-      "type": "NamedBlock",
-      "nodes": [
-        {
-          "type": "Block",
-          "nodes": [
-            {
-              "type": "Tag",
-              "name": "h1",
-              "selfClosing": false,
-              "block": {
-                "type": "Block",
-                "nodes": [
-                  {
-                    "type": "Text",
-                    "val": "hello",
-                    "line": 1,
-                    "filename": "auxiliary/include-from-root.pug"
-                  }
-                ],
-                "line": 1,
-                "filename": "auxiliary/include-from-root.pug"
-              },
-              "attrs": [],
-              "attributeBlocks": [],
-              "isInline": false,
-              "line": 1,
-              "filename": "auxiliary/include-from-root.pug"
-            }
-          ],
-          "line": 0,
-          "filename": "auxiliary/include-from-root.pug",
-          "declaredBlocks": {}
-        }
-      ],
-      "line": 6,
-      "filename": "auxiliary/layout.pug",
-      "name": "content",
-      "mode": "replace"
-    }
-  }
+  "declaredBlocks": {}
 }

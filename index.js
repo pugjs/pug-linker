@@ -40,6 +40,7 @@ function link(ast) {
     ast.declaredBlocks = findDeclaredBlocks(ast);
     var foundBlockNames = [];
     walk(parent, function (node) {
+      if (node.type === 'Block' && node.wasInclude) return false;
       if (node.type === 'NamedBlock') {
         foundBlockNames.push(node.name);
       }
@@ -65,6 +66,7 @@ function link(ast) {
 function findDeclaredBlocks(ast) {
   var definitions = {};
   walk(ast, function before(node) {
+    if (node.type === 'Block' && node.wasInclude) return false;
     if (node.type === 'NamedBlock' && node.mode === 'replace') {
       definitions[node.name] = node;
     }
@@ -74,6 +76,7 @@ function findDeclaredBlocks(ast) {
 function extend(parentBlocks, ast) {
   var stack = {};
   walk(ast, function before(node, replace) {
+    if (node.type === 'Block' && node.wasInclude) return false;
     if (node.type === 'NamedBlock') {
       if (stack[node.name]) {
         return node.ignore = true;
@@ -108,7 +111,9 @@ function applyIncludes(ast) {
     }
   }, function after(node, replace) {
     if (node.type === 'Include') {
-      replace(applyYield(link(node.file.ast), node.block));
+      var innerAst = link(node.file.ast);
+      innerAst.wasInclude = true;
+      replace(applyYield(innerAst, node.block));
     }
   });
 }
