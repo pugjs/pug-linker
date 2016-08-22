@@ -119,23 +119,10 @@
               "val": "h1 hello"
             }
           ],
-          "line": 3,
-          "filename": "../cases-src/auxiliary/extends-relative.pug",
+          "line": 6,
+          "filename": "../cases-src/auxiliary/layout.pug",
           "name": "content",
-          "mode": "replace",
-          "parent": {
-            "type": "NamedBlock",
-            "nodes": [
-              {
-                "type": "Text",
-                "val": "h1 hello"
-              }
-            ],
-            "line": 6,
-            "filename": "../cases-src/auxiliary/layout.pug",
-            "name": "content",
-            "mode": "replace"
-          }
+          "mode": "replace"
         }
       }
     }

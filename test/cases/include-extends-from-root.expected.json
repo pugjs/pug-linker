@@ -173,50 +173,10 @@
               "declaredBlocks": {}
             }
           ],
-          "line": 3,
-          "filename": "auxiliary/extends-from-root.pug",
+          "line": 6,
+          "filename": "auxiliary/layout.pug",
           "name": "content",
-          "mode": "replace",
-          "parent": {
-            "type": "NamedBlock",
-            "nodes": [
-              {
-                "type": "Block",
-                "nodes": [
-                  {
-                    "type": "Tag",
-                    "name": "h1",
-                    "selfClosing": false,
-                    "block": {
-                      "type": "Block",
-                      "nodes": [
-                        {
-                          "type": "Text",
-                          "val": "hello",
-                          "line": 1,
-                          "filename": "auxiliary/include-from-root.pug"
-                        }
-                      ],
-                      "line": 1,
-                      "filename": "auxiliary/include-from-root.pug"
-                    },
-                    "attrs": [],
-                    "attributeBlocks": [],
-                    "isInline": false,
-                    "line": 1,
-                    "filename": "auxiliary/include-from-root.pug"
-                  }
-                ],
-                "line": 0,
-                "filename": "auxiliary/include-from-root.pug",
-                "declaredBlocks": {}
-              }
-            ],
-            "line": 6,
-            "filename": "auxiliary/layout.pug",
-            "name": "content",
-            "mode": "replace"
-          }
+          "mode": "replace"
         }
       }
     }

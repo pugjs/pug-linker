@@ -36,6 +36,8 @@ function link(ast) {
     });
     var parent = link(extendsNode.file.ast);
     extend(parent.declaredBlocks, ast);
+    // Rescan declared blocks as they might have been replaced after `extend`ing
+    ast.declaredBlocks = findDeclaredBlocks(ast);
     var foundBlockNames = [];
     walk(parent, function (node) {
       if (node.type === 'NamedBlock') {
@@ -71,7 +73,7 @@ function findDeclaredBlocks(ast) {
 }
 function extend(parentBlocks, ast) {
   var stack = {};
-  walk(ast, function before(node) {
+  walk(ast, function before(node, replace) {
     if (node.type === 'NamedBlock') {
       if (stack[node.name]) {
         return node.ignore = true;
@@ -79,8 +81,6 @@ function extend(parentBlocks, ast) {
       stack[node.name] = true;
       var parentBlock = parentBlocks[node.name];
       if (parentBlock) {
-        if (parentBlock.parent) parentBlock = parentBlock.parent;
-        node.parent = parentBlock;
         switch (node.mode) {
           case 'append':
             parentBlock.nodes = parentBlock.nodes.concat(node.nodes);
@@ -92,6 +92,7 @@ function extend(parentBlocks, ast) {
             parentBlock.nodes = node.nodes;
             break;
         }
+        replace(parentBlock);
       }
     }
   }, function after(node) {

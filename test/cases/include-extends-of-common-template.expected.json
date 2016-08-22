@@ -67,42 +67,10 @@
               "filename": "auxiliary/extends-empty-block-1.pug"
             }
           ],
-          "line": 3,
-          "filename": "auxiliary/extends-empty-block-1.pug",
+          "line": 1,
+          "filename": "auxiliary/empty-block.pug",
           "name": "test",
-          "mode": "replace",
-          "parent": {
-            "type": "NamedBlock",
-            "nodes": [
-              {
-                "type": "Tag",
-                "name": "div",
-                "selfClosing": false,
-                "block": {
-                  "type": "Block",
-                  "nodes": [
-                    {
-                      "type": "Text",
-                      "val": "test1",
-                      "line": 4,
-                      "filename": "auxiliary/extends-empty-block-1.pug"
-                    }
-                  ],
-                  "line": 4,
-                  "filename": "auxiliary/extends-empty-block-1.pug"
-                },
-                "attrs": [],
-                "attributeBlocks": [],
-                "isInline": false,
-                "line": 4,
-                "filename": "auxiliary/extends-empty-block-1.pug"
-              }
-            ],
-            "line": 1,
-            "filename": "auxiliary/empty-block.pug",
-            "name": "test",
-            "mode": "replace"
-          }
+          "mode": "replace"
         }
       }
     },
@@ -172,42 +140,10 @@
               "filename": "auxiliary/extends-empty-block-2.pug"
             }
           ],
-          "line": 3,
-          "filename": "auxiliary/extends-empty-block-2.pug",
+          "line": 1,
+          "filename": "auxiliary/empty-block.pug",
           "name": "test",
-          "mode": "replace",
-          "parent": {
-            "type": "NamedBlock",
-            "nodes": [
-              {
-                "type": "Tag",
-                "name": "div",
-                "selfClosing": false,
-                "block": {
-                  "type": "Block",
-                  "nodes": [
-                    {
-                      "type": "Text",
-                      "val": "test2",
-                      "line": 4,
-                      "filename": "auxiliary/extends-empty-block-2.pug"
-                    }
-                  ],
-                  "line": 4,
-                  "filename": "auxiliary/extends-empty-block-2.pug"
-                },
-                "attrs": [],
-                "attributeBlocks": [],
-                "isInline": false,
-                "line": 4,
-                "filename": "auxiliary/extends-empty-block-2.pug"
-              }
-            ],
-            "line": 1,
-            "filename": "auxiliary/empty-block.pug",
-            "name": "test",
-            "mode": "replace"
-          }
+          "mode": "replace"
         }
       }
     }
