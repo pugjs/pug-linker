@@ -73,10 +73,10 @@ function extend(parentBlocks, ast) {
   var stack = {};
   walk(ast, function before(node) {
     if (node.type === 'NamedBlock') {
-      if (stack[node.name] === node.name) {
+      if (stack[node.name]) {
         return node.ignore = true;
       }
-      stack[node.name] = node.name;
+      stack[node.name] = true;
       var parentBlock = parentBlocks[node.name];
       if (parentBlock) {
         if (parentBlock.parent) parentBlock = parentBlock.parent;
@@ -96,7 +96,7 @@ function extend(parentBlocks, ast) {
     }
   }, function after(node) {
     if (node.type === 'NamedBlock' && !node.ignore) {
-      delete stack[node.name];
+      stack[node.name] = false;
     }
   });
 }
