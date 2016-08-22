@@ -100,7 +100,7 @@ function extend(parentBlocks, ast) {
     }
   });
 }
-function applyIncludes(ast, child) {
+function applyIncludes(ast) {
   return walk(ast, function before(node, replace) {
     if (node.type === 'RawInclude') {
       replace({type: 'Text', val: node.file.str.replace(/\r/g, '')});
