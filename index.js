@@ -20,6 +20,8 @@ function link(ast) {
   }
   ast = applyIncludes(ast);
   ast.declaredBlocks = findDeclaredBlocks(ast);
+  // Make all declarations of the same block reference the same node
+  extend(ast.declaredBlocks, ast);
   if (extendsNode) {
     var mixins = [];
     var expectedBlocks = [];
