@@ -3,7 +3,7 @@
 Link multiple pug ASTs together using include/extends
 
 [![Build Status](https://img.shields.io/travis/pugjs/pug-linker/master.svg)](https://travis-ci.org/pugjs/pug-linker)
-[![Dependency Status](https://img.shields.io/gemnasium/pugjs/pug-linker.svg)](https://gemnasium.com/pugjs/pug-linker)
+[![Dependency Status](https://img.shields.io/david/pugjs/pug-linker.svg)](https://david-dm.org/pugjs/pug-linker)
 [![NPM version](https://img.shields.io/npm/v/pug-linker.svg)](https://www.npmjs.org/package/pug-linker)
 
 ## Installation
