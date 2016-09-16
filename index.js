@@ -64,10 +64,23 @@ function findDeclaredBlocks(ast) {
   var definitions = {};
   walk(ast, function before(node) {
     if (node.type === 'NamedBlock' && node.mode === 'replace') {
-      definitions[node.name] = node;
+      definitions[node.name] = definitions[node.name] || [];
+      definitions[node.name].push(node);
     }
   });
   return definitions;
+}
+
+function flattenParentBlocks(parentBlocks, accumulator) {
+  accumulator = accumulator || [];
+  parentBlocks.forEach(function (parentBlock) {
+    if (parentBlock.parents) {
+      flattenParentBlocks(parentBlock.parents, accumulator);
+    } else {
+      accumulator.push(parentBlock);
+    }
+  })
+  return accumulator;
 }
 function extend(parentBlocks, ast) {
   var stack = {};
@@ -77,21 +90,24 @@ function extend(parentBlocks, ast) {
         return node.ignore = true;
       }
       stack[node.name] = node.name;
-      var parentBlock = parentBlocks[node.name];
-      if (parentBlock) {
-        if (parentBlock.parent) parentBlock = parentBlock.parent;
-        node.parent = parentBlock;
-        switch (node.mode) {
-          case 'append':
-            parentBlock.nodes = parentBlock.nodes.concat(node.nodes);
-            break;
-          case 'prepend':
-            parentBlock.nodes = node.nodes.concat(parentBlock.nodes);
-            break;
-          case 'replace':
-            parentBlock.nodes = node.nodes;
-            break;
-        }
+      if (parentBlocks[node.name] && parentBlocks[node.name].length) {
+        node.parent = [];
+        flattenParentBlocks(
+          parentBlocks[node.name]
+        ).forEach(function (parentBlock) {
+          node.parent.push(parentBlock);
+          switch (node.mode) {
+            case 'append':
+              parentBlock.nodes = parentBlock.nodes.concat(node.nodes);
+              break;
+            case 'prepend':
+              parentBlock.nodes = node.nodes.concat(parentBlock.nodes);
+              break;
+            case 'replace':
+              parentBlock.nodes = node.nodes;
+              break;
+          }
+        });
       }
     }
   }, function after(node) {
@@ -100,6 +116,7 @@ function extend(parentBlocks, ast) {
     }
   });
 }
+
 function applyIncludes(ast, child) {
   return walk(ast, function before(node, replace) {
     if (node.type === 'RawInclude') {
@@ -111,6 +128,7 @@ function applyIncludes(ast, child) {
     }
   });
 }
+
 function applyYield(ast, block) {
   if (!block || !block.nodes.length) return ast;
   var replaced = false;
@@ -139,6 +157,7 @@ function applyYield(ast, block) {
   }
   return ast;
 }
+
 function checkExtendPosition(ast, hasExtends) {
   var legitExtendsReached = false;
   walk(ast, function (node) {
