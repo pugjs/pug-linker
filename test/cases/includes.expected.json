@@ -67,11 +67,11 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "<p>:)</p>"
+            "val": "<p>:)</p>\n"
           },
           {
             "type": "Text",
-            "val": "<script>\n  console.log(\"foo\\nbar\")\n</script>"
+            "val": "<script>\n  console.log(\"foo\\nbar\")\n</script>\n"
           },
           {
             "type": "Tag",
