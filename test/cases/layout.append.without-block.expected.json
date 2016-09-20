@@ -168,118 +168,7 @@
   "declaredBlocks": {
     "head": {
       "type": "NamedBlock",
-      "nodes": [
-        {
-          "type": "Tag",
-          "name": "script",
-          "selfClosing": false,
-          "block": {
-            "type": "Block",
-            "nodes": [],
-            "line": 4,
-            "filename": "../fixtures/append-without-block/layout.pug"
-          },
-          "attrs": [
-            {
-              "name": "src",
-              "val": "'vendor/jquery.js'",
-              "mustEscape": true
-            }
-          ],
-          "attributeBlocks": [],
-          "isInline": false,
-          "line": 4,
-          "filename": "../fixtures/append-without-block/layout.pug"
-        },
-        {
-          "type": "Tag",
-          "name": "script",
-          "selfClosing": false,
-          "block": {
-            "type": "Block",
-            "nodes": [],
-            "line": 5,
-            "filename": "../fixtures/append-without-block/layout.pug"
-          },
-          "attrs": [
-            {
-              "name": "src",
-              "val": "'vendor/caustic.js'",
-              "mustEscape": true
-            }
-          ],
-          "attributeBlocks": [],
-          "isInline": false,
-          "line": 5,
-          "filename": "../fixtures/append-without-block/layout.pug"
-        },
-        {
-          "type": "Tag",
-          "name": "script",
-          "selfClosing": false,
-          "block": {
-            "type": "Block",
-            "nodes": [],
-            "line": 5,
-            "filename": "../fixtures/append-without-block/app-layout.pug"
-          },
-          "attrs": [
-            {
-              "name": "src",
-              "val": "'app.js'",
-              "mustEscape": true
-            }
-          ],
-          "attributeBlocks": [],
-          "isInline": false,
-          "line": 5,
-          "filename": "../fixtures/append-without-block/app-layout.pug"
-        },
-        {
-          "type": "Tag",
-          "name": "script",
-          "selfClosing": false,
-          "block": {
-            "type": "Block",
-            "nodes": [],
-            "line": 5,
-            "filename": "layout.append.without-block.pug"
-          },
-          "attrs": [
-            {
-              "name": "src",
-              "val": "'foo.js'",
-              "mustEscape": true
-            }
-          ],
-          "attributeBlocks": [],
-          "isInline": false,
-          "line": 5,
-          "filename": "layout.append.without-block.pug"
-        },
-        {
-          "type": "Tag",
-          "name": "script",
-          "selfClosing": false,
-          "block": {
-            "type": "Block",
-            "nodes": [],
-            "line": 6,
-            "filename": "layout.append.without-block.pug"
-          },
-          "attrs": [
-            {
-              "name": "src",
-              "val": "'bar.js'",
-              "mustEscape": true
-            }
-          ],
-          "attributeBlocks": [],
-          "isInline": false,
-          "line": 6,
-          "filename": "layout.append.without-block.pug"
-        }
-      ],
+      "nodes": "<NODES>",
       "line": 3,
       "filename": "../fixtures/append-without-block/layout.pug",
       "name": "head",
@@ -287,7 +176,7 @@
     },
     "body": {
       "type": "NamedBlock",
-      "nodes": [],
+      "nodes": "<NODES>",
       "line": 7,
       "filename": "../fixtures/append-without-block/layout.pug",
       "name": "body",

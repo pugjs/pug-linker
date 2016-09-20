@@ -105,7 +105,7 @@
       "declaredBlocks": {
         "head": {
           "type": "NamedBlock",
-          "nodes": [],
+          "nodes": "<NODES>",
           "line": 4,
           "filename": "../cases-src/auxiliary/layout.pug",
           "name": "head",
@@ -113,24 +113,14 @@
         },
         "content": {
           "type": "NamedBlock",
-          "nodes": [
-            {
-              "type": "Text",
-              "val": "h1 hello"
-            }
-          ],
+          "nodes": "<NODES>",
           "line": 3,
           "filename": "../cases-src/auxiliary/extends-relative.pug",
           "name": "content",
           "mode": "replace",
           "parent": {
             "type": "NamedBlock",
-            "nodes": [
-              {
-                "type": "Text",
-                "val": "h1 hello"
-              }
-            ],
+            "nodes": "<NODES>",
             "line": 6,
             "filename": "../cases-src/auxiliary/layout.pug",
             "name": "content",
@@ -145,7 +135,7 @@
   "declaredBlocks": {
     "head": {
       "type": "NamedBlock",
-      "nodes": [],
+      "nodes": "<NODES>",
       "line": 4,
       "filename": "../cases-src/auxiliary/layout.pug",
       "name": "head",
@@ -153,12 +143,7 @@
     },
     "content": {
       "type": "NamedBlock",
-      "nodes": [
-        {
-          "type": "Text",
-          "val": "h1 hello"
-        }
-      ],
+      "nodes": "<NODES>",
       "line": 6,
       "filename": "../cases-src/auxiliary/layout.pug",
       "name": "content",
